@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ANIMATOR_HotelCommonEventsBugsEnemyBug3Override
+  m_Controller: {fileID: 9100000, guid: db9fadc1cd7b77f46bf978a748ec742d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1946ae53548034548b2def2bcda8b71e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: db1b0160baa00fd4fbfc6b7b82c6b700, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 031f8eec0523a5d4da0f15dc94ac746e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 287163b97570bba449060f9ab8ab4e15, type: 2}
