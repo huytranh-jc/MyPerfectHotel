@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 674650770, guid: 3887e2261eb5d2eb5cf4d734b33b539f, type: 3}
+  m_Name: MultiOfferCoreFeatureConfig
+  m_EditorClassIdentifier:
+  <FetchRemote>k__BackingField: 1
+  config: {fileID: 11400000, guid: 153bd190217faa84eb8ce64cf6f5edf4, type: 2}
+  <StylePresets>k__BackingField:
+  - {fileID: 11400000, guid: 2f898c4a61183bb4da0770750e40fc17, type: 2}
+  - {fileID: 11400000, guid: 306b18cf9e6221d4d98e86cad48593fa, type: 2}
+  <HudIconPriority>k__BackingField: 5

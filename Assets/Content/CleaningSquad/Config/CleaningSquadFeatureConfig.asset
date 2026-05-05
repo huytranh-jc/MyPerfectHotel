@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1835143054, guid: 3887e2261eb5d2eb5cf4d734b33b539f, type: 3}
+  m_Name: CleaningSquadFeatureConfig
+  m_EditorClassIdentifier:
+  <FetchRemote>k__BackingField: 1
+  config: {fileID: 11400000, guid: eda16c2eb083d734b9202c1ed7a0795a, type: 2}
+  <MemberInventoryItem>k__BackingField: {fileID: 11400000, guid: b6ac954db0a4e41468dd0b9d4cf1a754, type: 2}
+  <Members>k__BackingField:
+  - {fileID: 11400000, guid: 73f8a85cb95fce847a29e03edf405c97, type: 2}
+  - {fileID: 11400000, guid: ba2da8e37ea47284189729e74c9494ca, type: 2}
+  - {fileID: 11400000, guid: 76f74e1632d666a4e814d1b76b099aaa, type: 2}
+  <HotelsSettings>k__BackingField: {fileID: 11400000, guid: 4dc5624434dc456418084a6c2b21457a, type: 2}
+  <SquadBasePrefab>k__BackingField:
+    m_AssetGUID: 61149cb3ccd7ad443abefcb98ef128f9
+    m_SubObjectName:
+    m_SubObjectType:
+  <VirtualCamera>k__BackingField: {fileID: 114618682377417806, guid: e28152226ccf92a469b71f25406110d1, type: 2}
+  <SlotsSettings>k__BackingField:
+  - <Slot>k__BackingField: 1
+    <Icon>k__BackingField:
+      m_AssetGUID: e47c25a5635af46488b18ff8fb56ae19
+      m_SubObjectName: cleaner_stage_1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <SlotName>k__BackingField: 7554
+  - <Slot>k__BackingField: 2
+    <Icon>k__BackingField:
+      m_AssetGUID: 583379cca1e5978438e70fff413f9ae0
+      m_SubObjectName: cleaner_stage_2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <SlotName>k__BackingField: 7555
+  - <Slot>k__BackingField: 3
+    <Icon>k__BackingField:
+      m_AssetGUID: 5f212a7a960377040ae97f4dae154f89
+      m_SubObjectName: cleaner_stage_3
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    <SlotName>k__BackingField: 7556
+  <OfferPopupType>k__BackingField: 345
+  <OfferHudItemPrefab>k__BackingField:
+    m_AssetGUID: dc96d6e014049cd4e9cc199fee0cd768
+    m_SubObjectName:
+    m_SubObjectType:
+  <BankCardPrefab>k__BackingField:
+    m_AssetGUID: 43ddec530fe86b0409c663ef8a4f8783
+    m_SubObjectName:
+    m_SubObjectType:
+  <ReviewSettings>k__BackingField:
+  - <OfferSlotConfigs>k__BackingField:
+    - <Slot>k__BackingField: 1
+      <ProductId>k__BackingField: hotelmaster_cleaner_offer_first_stage
+      <CleanerCount>k__BackingField: 1
+      <CleanerLevel>k__BackingField: 1
+    - <Slot>k__BackingField: 2
+      <ProductId>k__BackingField: hotelmaster_cleaner_offer_second_stage
+      <CleanerCount>k__BackingField: 2
+      <CleanerLevel>k__BackingField: 2
+    - <Slot>k__BackingField: 3
+      <ProductId>k__BackingField: hotelmaster_cleaner_offer_third_stage
+      <CleanerCount>k__BackingField: 3
+      <CleanerLevel>k__BackingField: 3
+    <OfferPackConfig>k__BackingField:
+      <CleanersCount>k__BackingField: 0
+      <ProductId>k__BackingField: hotelmaster_cleaner_offer_full_squad
+      <ProductIdWithoutDiscount>k__BackingField: hotelmaster_megapack
+      <DiscountValue>k__BackingField: 40%
+  - <OfferSlotConfigs>k__BackingField:
+    - <Slot>k__BackingField: 1
+      <ProductId>k__BackingField: hotelmaster_cleaner_offer_first_stage_v2
+      <CleanerCount>k__BackingField: 1
+      <CleanerLevel>k__BackingField: 1
+    - <Slot>k__BackingField: 2
+      <ProductId>k__BackingField: hotelmaster_cleaner_offer_second_stage_v2
+      <CleanerCount>k__BackingField: 2
+      <CleanerLevel>k__BackingField: 2
+    - <Slot>k__BackingField: 3
+      <ProductId>k__BackingField: hotelmaster_cleaner_offer_third_stage_v2
+      <CleanerCount>k__BackingField: 3
+      <CleanerLevel>k__BackingField: 3
+    <OfferPackConfig>k__BackingField:
+      <CleanersCount>k__BackingField: 0
+      <ProductId>k__BackingField: hotelmaster_cleaner_offer_full_squad_v2
+      <ProductIdWithoutDiscount>k__BackingField: hotelmaster_megapack
+      <DiscountValue>k__BackingField: 40%

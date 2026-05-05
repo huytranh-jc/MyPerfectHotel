@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2073961469, guid: 3887e2261eb5d2eb5cf4d734b33b539f, type: 3}
+  m_Name: TutorialViewConfig
+  m_EditorClassIdentifier:
+  <TutorialFingerPrefab>k__BackingField: {fileID: 1709254077376921, guid: e839d26979c8f5b4babb43ebb26c57be, type: 2}
+  <TutorialMessageRef>k__BackingField:
+    m_AssetGUID: 1cf2e4d7796b84f0cbba1192670e443e
+    m_SubObjectName:
+    m_SubObjectType:
+  <TapToContinueBtnRef>k__BackingField:
+    m_AssetGUID: 745b887a049d9497199f42c35e4d7d4b
+    m_SubObjectName:
+    m_SubObjectType:
+  <BigTextBubbleRef>k__BackingField:
+    m_AssetGUID: a98ce520894aa4a4e9c6c0fbd44ffa25
+    m_SubObjectName:
+    m_SubObjectType:
+  <RegularTextBubbleRef>k__BackingField:
+    m_AssetGUID: 368b859f0c18e63489cb998ae033e41f
+    m_SubObjectName:
+    m_SubObjectType:
+  <TutorialArrowRef>k__BackingField:
+    m_AssetGUID: 878ac57682e7546a49076817c77b401b
+    m_SubObjectName:
+    m_SubObjectType:
+  <TutorialHandRef>k__BackingField:
+    m_AssetGUID: 9459e6fa6169547beb99eeaf3640dd33
+    m_SubObjectName:
+    m_SubObjectType:
+  <HotelViewOverrides>k__BackingField:
+  - <HotelId>k__BackingField: 19
+    <HandRef>k__BackingField:
+      m_AssetGUID: 5f7c6960b5c9d48eba99a7aa68747811
+      m_SubObjectName:
+      m_SubObjectType:
+    <BigTextBubbleRef>k__BackingField:
+      m_AssetGUID: aa2fad547db0f4296b994b026eb07c46
+      m_SubObjectName:
+      m_SubObjectType:
+    <RegularTextBubbleRef>k__BackingField:
+      m_AssetGUID: a8e7736d21ee2064984758cdc846dbff
+      m_SubObjectName:
+      m_SubObjectType:
