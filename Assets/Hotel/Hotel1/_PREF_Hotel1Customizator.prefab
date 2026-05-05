@@ -1,0 +1,587 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: _PREF_Hotel1Customizator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 212958411, guid: 3887e2261eb5d2eb5cf4d734b33b539f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  custom: []
+  customizationSetByLevel:
+  - designIcon:
+      m_AssetGUID: 60682a0763f8a42aba22a1ce16cacb6f
+      m_SubObjectName: ResultWallpaperLevelIcon1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    items:
+    - type: 1
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 917485e1840be384e82c2e7b50812c4c, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: d0e8263954be2b140b4848963581e8ef, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 4
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 76e2cd0806666f249b4e39cc9a5a17fd, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: cf3f3a2633d3a9043be8f83deba7aa6b, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 5
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 8f51eb5c4bfd7b74c9b88da380afb6fb, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6c6c61aeea2109f499f98d763dbf3402, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 6
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 00861c0d264126247a4cd4794471f3d6, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 7
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: f8e78da78c1862f44a6eeaf075ad6c7c, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6509908fd85c6a340a4b491acf7450d0, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 8
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 77a3bfcdb2319b64083ac7ad39ae0a83, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+  - designIcon:
+      m_AssetGUID: 13dec487dc27b48bf867aa920309155b
+      m_SubObjectName: ResultWallpaperLevelIcon2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    items:
+    - type: 1
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 3142b27f45865f1478bb4b03a3817384, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: d0e8263954be2b140b4848963581e8ef, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 4
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 89478d2e5ac2a7d49a4b729e670cc443, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: cf3f3a2633d3a9043be8f83deba7aa6b, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 5
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 27fe88ed32392644fa69adf683743e5c, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6c6c61aeea2109f499f98d763dbf3402, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 6
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 00861c0d264126247a4cd4794471f3d6, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 7
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: aa26208bdfbaa0347acb5c04b39a13fb, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6509908fd85c6a340a4b491acf7450d0, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 8
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 9ad437b7d3388374590f425941b6152b, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+  - designIcon:
+      m_AssetGUID: 6e87396327c174a81b929c5ed4aa948d
+      m_SubObjectName: ResultWallpaperLevelIcon3
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    items:
+    - type: 1
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: fc7e43e52ddcefb4c993233c1cc9343e, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: d0e8263954be2b140b4848963581e8ef, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 4
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: e93545a3e26cae64ea8e46d1ad843b62, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: cf3f3a2633d3a9043be8f83deba7aa6b, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 5
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: d1798b24fc42d9b4080bb40b5915a16a, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6c6c61aeea2109f499f98d763dbf3402, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 6
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 00861c0d264126247a4cd4794471f3d6, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 7
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: c8a5b6d7b0528324a9cf7cbdf77f30f7, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6509908fd85c6a340a4b491acf7450d0, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 8
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: d3c043369180d124393e94bd52f9db27, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+  - designIcon:
+      m_AssetGUID: 4c7ef9e4e1678405f9da2469e88d21bb
+      m_SubObjectName: ResultWallpaperLevelIcon4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    items:
+    - type: 1
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: c57c878747a6128469aaf1c833718c79, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: d0e8263954be2b140b4848963581e8ef, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 4
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: b1009e8861c5d4f429ca2a70d3fe0338, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: cf3f3a2633d3a9043be8f83deba7aa6b, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 5
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 0e86a4c69fde17a449b9d0403123002a, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6c6c61aeea2109f499f98d763dbf3402, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 6
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 00861c0d264126247a4cd4794471f3d6, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 7
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: d0a209d1b3287fb459ee1cacc69fc949, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6509908fd85c6a340a4b491acf7450d0, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 8
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 26c5d563f8fd23b468a6f9d073821a36, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+  - designIcon:
+      m_AssetGUID: e226aef508ff24df0a0698ecef165abd
+      m_SubObjectName: ResultWallpaperLevelIcon5
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    items:
+    - type: 1
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 9abbdca4e4ea3f144a985a7cf71502b2, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: d0e8263954be2b140b4848963581e8ef, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 4
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 2ef310321d55f9848b6f54254613020e, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: cf3f3a2633d3a9043be8f83deba7aa6b, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 5
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 021adfc4a7e746345a2e4c0249702864, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6c6c61aeea2109f499f98d763dbf3402, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 6
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 00861c0d264126247a4cd4794471f3d6, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 7
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: ba4698e7791d96e47876ba6b77666dec, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6509908fd85c6a340a4b491acf7450d0, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 8
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: fc1196547c7685f49a8b5518a0dd8770, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+  - designIcon:
+      m_AssetGUID: 88f254b4d665942e9b3624cb2f62d3c9
+      m_SubObjectName: ResultWallpaperLevelIcon6
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    items:
+    - type: 1
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 1c48888dc1e001c4abfc9ad53e203b87, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: d0e8263954be2b140b4848963581e8ef, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 4
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: c5bda362270ac544cbd1ed7731a2ccd5, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: cf3f3a2633d3a9043be8f83deba7aa6b, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 5
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 8cb8c9d9c5146a946a625f7de6915aad, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6c6c61aeea2109f499f98d763dbf3402, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 6
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 00861c0d264126247a4cd4794471f3d6, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 7
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 79d1d884de9d1cd4498df591a1cfc182, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6509908fd85c6a340a4b491acf7450d0, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 8
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 9e8c13085f545c841a07115a273960cd, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+  - designIcon:
+      m_AssetGUID: 0771e9ba2beab40c197c9e00a99e2c92
+      m_SubObjectName: ResultWallpaperLevelIcon7
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    items:
+    - type: 1
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 7d35ba4b91244ad48bc1c6a1dd1b615a, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: d0e8263954be2b140b4848963581e8ef, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 4
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: ea1e7a29558375f449a7d60ba0048fff, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: cf3f3a2633d3a9043be8f83deba7aa6b, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 5
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 399c13f59c620644fbcbfa1c6f25a2b4, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6c6c61aeea2109f499f98d763dbf3402, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 6
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 00861c0d264126247a4cd4794471f3d6, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 7
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 7633fecd410a3ab4e881b5a6c150a588, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 6509908fd85c6a340a4b491acf7450d0, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
+    - type: 8
+      id: 0
+      cost:
+        Price: []
+        TransferItems: []
+      activeSprite: {fileID: 0}
+      deactiveSprite: {fileID: 0}
+      texture: {fileID: 2800000, guid: 3df513875bdfcbe46b5a22fc1ca3131b, type: 3}
+      texture2: {fileID: 0}
+      material: {fileID: 2100000, guid: 13518e883528530408505ab9a9375cd1, type: 2}
+      material2: {fileID: 0}
+      mesh: {fileID: 0}
