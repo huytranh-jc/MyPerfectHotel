@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -54844177, guid: f68e4d9210748575b7313c5ba1460876, type: 3}
+  m_Name: InstantOfferSafe_Hotel1 Skeleton
+  m_EditorClassIdentifier:
+  m_SpriteBones:
+  - m_Name: bone_1
+    m_Guid:
+    m_Position: {x: 351.2905, y: 201.99362, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.4782137, w: 0.8782435}
+    m_Length: 519.22095
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_2
+    m_Guid:
+    m_Position: {x: 272.22977, y: 6.219484E-07, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.7049057, w: 0.7093011}
+    m_Length: 68.77419
+    m_ParentId: 2
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_3
+    m_Guid:
+    m_Position: {x: 519.22095, y: -1.8681643E-05, z: 0}
+    m_Rotation: {x: 0, y: -0, z: -0.977914, w: 0.20900773}
+    m_Length: 272.22983
+    m_ParentId: 0
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_4
+    m_Guid:
+    m_Position: {x: 588.9771, y: 309.29214, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.459182, w: 0.8883422}
+    m_Length: 131.52203
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_5
+    m_Guid:
+    m_Position: {x: 445.007, y: 276.69513, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.6966352, w: 0.71742564}
+    m_Length: 138.59726
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_6
+    m_Guid:
+    m_Position: {x: 93.230835, y: 260.3966, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.2934443, w: 0.9559762}
+    m_Length: 147.67047
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_7
+    m_Guid:
+    m_Position: {x: 305.11142, y: 480.42645, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.94538486, w: 0.3259562}
+    m_Length: 79.33615
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_8
+    m_Guid:
+    m_Position: {x: 503.40997, y: 564.63544, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.36508226, w: 0.9309753}
+    m_Length: 75.92616
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_9
+    m_Guid:
+    m_Position: {x: 400.1861, y: 636.6205, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.563182, w: 0.8263329}
+    m_Length: 81.718575
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0

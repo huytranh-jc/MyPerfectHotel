@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -54844177, guid: f68e4d9210748575b7313c5ba1460876, type: 3}
+  m_Name: Vip_Popup_Hotel1 Skeleton
+  m_EditorClassIdentifier:
+  m_SpriteBones:
+  - m_Name: bone_1
+    m_Guid:
+    m_Position: {x: 294.08905, y: 150.46904, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.77379626, w: 0.63343465}
+    m_Length: 95.53229
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_2
+    m_Guid:
+    m_Position: {x: 226.99646, y: 232.23805, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.7130235, w: 0.7011402}
+    m_Length: 83.178566
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_3
+    m_Guid:
+    m_Position: {x: 83.178566, y: 6.193875E-06, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.7912947, w: 0.61143494}
+    m_Length: 50.34371
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_4
+    m_Guid:
+    m_Position: {x: 315.05542, y: 243.42015, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.2526435, w: 0.96755946}
+    m_Length: 72.905014
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_5
+    m_Guid:
+    m_Position: {x: 72.90501, y: -3.2032412E-06, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.89936197, w: 0.43720496}
+    m_Length: 45.271065
+    m_ParentId: 3
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_6
+    m_Guid:
+    m_Position: {x: 95.53229, y: -4.6283E-05, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.013444278, w: 0.9999097}
+    m_Length: 96.80441
+    m_ParentId: 0
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_7
+    m_Guid:
+    m_Position: {x: 96.80442, y: -1.1869477E-05, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.16855781, w: 0.98569185}
+    m_Length: 164.61131
+    m_ParentId: 5
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_8
+    m_Guid:
+    m_Position: {x: 275.21924, y: 122.51378, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.76302, w: 0.6463749}
+    m_Length: 42.511257
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_9
+    m_Guid:
+    m_Position: {x: 42.51126, y: 1.3205019E-05, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.13778242, w: 0.99046254}
+    m_Length: 42.517017
+    m_ParentId: 7
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_10
+    m_Guid:
+    m_Position: {x: 42.51701, y: 4.12382E-06, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.3497473, w: 0.9368441}
+    m_Length: 18.143995
+    m_ParentId: 8
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_11
+    m_Guid:
+    m_Position: {x: 319.24872, y: 130.20146, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.7017304, w: 0.7124427}
+    m_Length: 46.131413
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_12
+    m_Guid:
+    m_Position: {x: 46.13141, y: 1.1692129E-05, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.19939753, w: 0.9799187}
+    m_Length: 44.514896
+    m_ParentId: 10
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_13
+    m_Guid:
+    m_Position: {x: 44.514896, y: 1.2068976E-05, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.56304026, w: 0.82642955}
+    m_Length: 20.267529
+    m_ParentId: 11
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_14
+    m_Guid:
+    m_Position: {x: 369.5681, y: 423.73138, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.5727713, w: 0.8197152}
+    m_Length: 52.842945
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_15
+    m_Guid:
+    m_Position: {x: 438.05844, y: 281.85858, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.6006681, w: 0.7994985}
+    m_Length: 50.20767
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_16
+    m_Guid:
+    m_Position: {x: 418.48978, y: 138.58804, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.39292327, w: 0.9195713}
+    m_Length: 44.48749
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_17
+    m_Guid:
+    m_Position: {x: 161.30167, y: 115.52497, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.9088142, w: 0.41720128}
+    m_Length: 52.532387
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
+  - m_Name: bone_18
+    m_Guid:
+    m_Position: {x: 115.175545, y: 232.23805, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.9894868, w: 0.14462343}
+    m_Length: 56.16323
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 0
