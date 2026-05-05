@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_HotelCommonEventsMonstersBubble
+  m_Shader: {fileID: 4800000, guid: 6a555ace34ec6ac40ad5e6b3c5fdb8c5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - DR_GRADIENT_ON
+  - _CELPRIMARYMODE_SINGLE
+  - _TEXTUREBLENDINGMODE_MULTIPLY
+  - _UNITYSHADOWMODE_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.24, y: 0.51}
+        m_Offset: {x: 0, y: 0}
+      _SecondTex:
+        m_Texture: {fileID: 2800000, guid: e129ff302ec6b5a4e8435ba1381b124c, type: 3}
+        m_Scale: {x: 25, y: 25}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaClip: 0
+      _AlphaPower: 0.679
+      _Blend: 0
+      _BumpScale: 1
+      _CelExtraEnabled: 0
+      _CelNumSteps: 3
+      _CelPrimaryMode: 1
+      _Cull: 2
+      _Cutoff: 0.647
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _FlatRimEdgeSmoothness: 0.5
+      _FlatRimLightAlign: 0
+      _FlatRimSize: 0.5
+      _FlatSpecularEdgeSmoothness: 0
+      _FlatSpecularSize: 0.68
+      _Flatness: 0.269
+      _FlatnessExtra: 1
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _GradientAngle: 36
+      _GradientCenterX: -2.7
+      _GradientCenterY: 0
+      _GradientEnabled: 1
+      _GradientSize: 20.75
+      _LightContribution: 0
+      _LightmapDirectionPitch: 0
+      _LightmapDirectionYaw: 0
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _OutlineDepthOffset: 0
+      _OutlineWidth: 0.01
+      _OverrideLightmapDir: 0
+      _Parallax: 0.02
+      _QueueOffset: 0
+      _RimEnabled: 0
+      _SelfShadingSize: 0.337
+      _SelfShadingSizeExtra: 0.6
+      _ShadowEdgeSize: 0.222
+      _ShadowEdgeSizeExtra: 0.05
+      _SmoothnessTextureChannel: 0
+      _SpecularEnabled: 0
+      _SpecularHighlights: 1
+      _SpeedX: 0
+      _SpeedXSecond: 0
+      _SpeedY: 0
+      _SpeedYSecond: 0.2
+      _SrcBlend: 1
+      _Surface: 0
+      _TextureBlendingMode: 0
+      _TextureImpact: 1
+      _UVSec: 0
+      _UnityShadowMode: 0
+      _UnityShadowPower: 0.2
+      _UnityShadowSharpness: 1
+      _VertexColorsEnabled: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 0, g: 0.6330502, b: 1, a: 0.46666667}
+      _ColorDim: {r: 1, g: 1, b: 1, a: 0.68235296}
+      _ColorDimCurve: {r: 1, g: 1, b: 1, a: 0}
+      _ColorDimExtra: {r: 0, g: 0.6330502, b: 1, a: 0.8}
+      _ColorDimSteps: {r: 1, g: 1, b: 1, a: 0}
+      _ColorGradient: {r: 1, g: 0, b: 0, a: 0.36078432}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FlatRimColor: {r: 1, g: 1, b: 1, a: 0}
+      _FlatSpecularColor: {r: 0, g: 0.6330502, b: 1, a: 0.46666667}
+      _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
+      _MainTexTint: {r: 0.5923567, g: 1, b: 0.5987261, a: 1}
+      _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+      _SecondTexTint: {r: 0.9937551, g: 0.694, b: 1, a: 0.8156863}
+      _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+  m_BuildTextureStacks: []
