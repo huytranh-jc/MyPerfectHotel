@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1058613202, guid: 3887e2261eb5d2eb5cf4d734b33b539f, type: 3}
+  m_Name: CommonSpecialGuestRarity
+  m_EditorClassIdentifier:
+  <Id>k__BackingField: Common
+  <VisitWeight>k__BackingField: 0.65
+  <QuestPriceMultiplier>k__BackingField: 0.75
+  <LevelUpPrices>k__BackingField:
+  - Price:
+    - Currency: Cards
+      Value: 5
+    - Currency: Candy
+      Value: 0
+  - Price:
+    - Currency: Cards
+      Value: 10
+    - Currency: Candy
+      Value: 20
+  - Price:
+    - Currency: Cards
+      Value: 15
+    - Currency: Candy
+      Value: 45
+  - Price:
+    - Currency: Cards
+      Value: 20
+    - Currency: Candy
+      Value: 80
+  - Price:
+    - Currency: Cards
+      Value: 25
+    - Currency: Candy
+      Value: 125
+  - Price:
+    - Currency: Cards
+      Value: 30
+    - Currency: Candy
+      Value: 180
+  - Price:
+    - Currency: Cards
+      Value: 40
+    - Currency: Candy
+      Value: 280
+  - Price:
+    - Currency: Cards
+      Value: 50
+    - Currency: Candy
+      Value: 400
+  - Price:
+    - Currency: Cards
+      Value: 60
+    - Currency: Candy
+      Value: 540
+  - Price:
+    - Currency: Cards
+      Value: 70
+    - Currency: Candy
+      Value: 700
+  - Price:
+    - Currency: Cards
+      Value: 80
+    - Currency: Candy
+      Value: 880
+  - Price:
+    - Currency: Cards
+      Value: 100
+    - Currency: Candy
+      Value: 1200
+  - Price:
+    - Currency: Cards
+      Value: 125
+    - Currency: Candy
+      Value: 1625
+  - Price:
+    - Currency: Cards
+      Value: 150
+    - Currency: Candy
+      Value: 2100
+  - Price:
+    - Currency: Cards
+      Value: 175
+    - Currency: Candy
+      Value: 2625
+  - Price:
+    - Currency: Cards
+      Value: 200
+    - Currency: Candy
+      Value: 3200
+  - Price:
+    - Currency: Cards
+      Value: 225
+    - Currency: Candy
+      Value: 3825
+  - Price:
+    - Currency: Cards
+      Value: 250
+    - Currency: Candy
+      Value: 4500
+  - Price:
+    - Currency: Cards
+      Value: 300
+    - Currency: Candy
+      Value: 5700
+  - Price:
+    - Currency: Cards
+      Value: 400
+    - Currency: Candy
+      Value: 8000
+  <Rewards>k__BackingField: {fileID: 11400000, guid: d2feab34dc513f2459d616822a78d2b7, type: 2}
+  <ExtraVisitRewards>k__BackingField: []
+  <PreviewPrefab>k__BackingField:
+    m_AssetGUID: 753cdf0f1bcb84b468b755c06728ec6d
+    m_SubObjectName:
+    m_SubObjectType:
+  <SuccessPreviewPanel>k__BackingField:
+    m_AssetGUID: 893382c42514ae04fa52da233060daf2
+    m_SubObjectName:
+    m_SubObjectType:
+  <FullCardPrefab>k__BackingField:
+    m_AssetGUID: 49dded042842c2048853a4d3e6a6e74a
+    m_SubObjectName:
+    m_SubObjectType:
+  <UIConfig>k__BackingField:
+    <Border>k__BackingField:
+      m_AssetGUID: aded59738839a734c821fd757e5610b7
+      m_SubObjectName:
+      m_SubObjectType:
+    <Star>k__BackingField:
+      m_AssetGUID: 8f685cadf5e7a0240abcdfd4cd45ed24
+      m_SubObjectName:
+      m_SubObjectType:
+    <GlowColor>k__BackingField: {r: 1, g: 0.63529414, b: 0.47843137, a: 1}
+  <HudUIConfig>k__BackingField: {fileID: 11400000, guid: 0e10c2607a5c9334893925f5ea84e41a, type: 2}
+  <MiniCards>k__BackingField: {fileID: 11400000, guid: 2e2efb9adfe34d1419ef2b1b60580232, type: 2}
+  <MiniCardAsset>k__BackingField:
+    m_AssetGUID: de989566d7c88f2499d7df43a4ec4147
+    m_SubObjectName: SpecialGuestMiniCardBronze
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  <HudRarityPanelSpriteRef>k__BackingField:
+    m_AssetGUID: c21c12868762d4f1bafd87783ea0c109
+    m_SubObjectName: HudRarityPanel_common
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  <CardBackgroundSprite>k__BackingField:
+    m_AssetGUID: 4cb74f33056c04902bab06900816f3e2
+    m_SubObjectName: SpecialGuests_Preview_bronze
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

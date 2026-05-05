@@ -1,0 +1,5795 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -412406770, guid: 3887e2261eb5d2eb5cf4d734b33b539f, type: 3}
+  m_Name: CurrencyData
+  m_EditorClassIdentifier:
+  currencyByPlacement:
+  - placement: 5
+    icons:
+    - cur: 0
+      icon:
+        m_AssetGUID: f368713244e12475db277a6d48773d78
+        m_SubObjectName: IconHotel1MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 5
+      icon:
+        m_AssetGUID: ea28b07fe879343678abeef388849ad2
+        m_SubObjectName: IconHotel2MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 6
+      icon:
+        m_AssetGUID: 531db23e59b9c46d986da552369e3884
+        m_SubObjectName: IconHotel3MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 7
+      icon:
+        m_AssetGUID: 6578c85874d97440293649865283def2
+        m_SubObjectName: IconHotel4MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 8
+      icon:
+        m_AssetGUID: 067e0ab0be7204a05a47738dd2a35c16
+        m_SubObjectName: IconHotel5MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 9
+      icon:
+        m_AssetGUID: 07ba29552427846bba01be697536d8f5
+        m_SubObjectName: IconHotel6MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 10
+      icon:
+        m_AssetGUID: 3b31ab78f16b14cef9e0aef4e20a2512
+        m_SubObjectName: IconHotel7MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 4
+      icon:
+        m_AssetGUID: 55ad185ed65d440a1bab6d1a4fd8d684
+        m_SubObjectName: IconGemNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 2
+      icon:
+        m_AssetGUID: 6154dabadfa3241f0a0e1079c3e27b1a
+        m_SubObjectName: IconTokenNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 11
+      icon:
+        m_AssetGUID: f5358f02fff14c04fa7ebeab5e6e4432
+        m_SubObjectName: IconHotel8MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 12
+      icon:
+        m_AssetGUID: 73951154b213c5146b66f97badfed21c
+        m_SubObjectName: EventTool
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 13
+      icon:
+        m_AssetGUID: 1f1c8ea18e2c04e49bfc8d535f039867
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 16
+      icon:
+        m_AssetGUID: cf9249170e49cf042a6104bc3f83665f
+        m_SubObjectName: IconHotel9MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 19
+      icon:
+        m_AssetGUID: fcd3e4f93134b354898fa3259071f22e
+        m_SubObjectName: TGDTool
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 20
+      icon:
+        m_AssetGUID: babd78311fbd0ff45a6fb3324cd3c47d
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 22
+      icon:
+        m_AssetGUID: 7e38f216859d44cfc9c0f533a9657422
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 27
+      icon:
+        m_AssetGUID: 5199cd926b2ed8942a8645fbb17d9a61
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 29
+      icon:
+        m_AssetGUID: 0efbe09d5d160324d9b3007c01a7e89b
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 30
+      icon:
+        m_AssetGUID: 64f0d422e5348874facc88bc2800dc19
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 32
+      icon:
+        m_AssetGUID: e5649cce5de5baa4b888336af81a327a
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 33
+      icon:
+        m_AssetGUID: b1b84d0fe70214549812782c245bf3ea
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 1
+      icon:
+        m_AssetGUID: 6eecd4c1465a1e74cb26352b18bfb197
+        m_SubObjectName: IconTicketParticle
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 36
+      icon:
+        m_AssetGUID: e61d05a1a40f3f54894ddb987ba39137
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 88
+      icon:
+        m_AssetGUID: 847ffcbf657594580988d5a703c319a7
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 107
+      icon:
+        m_AssetGUID: b2b4f998f21b942ddb8dfac273a09c34
+        m_SubObjectName: IconHotel15MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 113
+      icon:
+        m_AssetGUID: bd3d5a40bc456467cb94b04e5fb80b8a
+        m_SubObjectName: IconHotel16MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 128
+      icon:
+        m_AssetGUID: 30e3793d28e5b4d22b63e92b3be92fbd
+        m_SubObjectName: IconHotel17MoneyNoStroke
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 133
+      icon:
+        m_AssetGUID: d553fddf9aa484fedb13fe955121a0e2
+        m_SubObjectName: ShoeBarbie1
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - placement: 8
+    icons:
+    - cur: 0
+      icon:
+        m_AssetGUID: 00ebe81f3ea1a4feca950cbf8c69300c
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 5
+      icon:
+        m_AssetGUID: bfd9108dff37943c7b58469935181985
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 6
+      icon:
+        m_AssetGUID: 281b9ef92431944cd87ae6fd8004ed94
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 7
+      icon:
+        m_AssetGUID: a97e53041d9f74178ad3267fb7d0f47c
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 8
+      icon:
+        m_AssetGUID: b329b8fb758f44051aa71a35db540c39
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 9
+      icon:
+        m_AssetGUID: 99c3a297fcc244948af09c184270253a
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 10
+      icon:
+        m_AssetGUID: 2c3391a5e49284cbbafdf7c771faf324
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 11
+      icon:
+        m_AssetGUID: a97e53041d9f74178ad3267fb7d0f47c
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 16
+      icon:
+        m_AssetGUID: 067af381b68ff4ddcb24a9805fc14785
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 22
+      icon:
+        m_AssetGUID: 99c3a297fcc244948af09c184270253a
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 27
+      icon:
+        m_AssetGUID: 99c3a297fcc244948af09c184270253a
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 29
+      icon:
+        m_AssetGUID: 9c18edfdeae227e49973d43074edd539
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 36
+      icon:
+        m_AssetGUID: 9c18edfdeae227e49973d43074edd539
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 88
+      icon:
+        m_AssetGUID: a97e53041d9f74178ad3267fb7d0f47c
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 107
+      icon:
+        m_AssetGUID: 281b9ef92431944cd87ae6fd8004ed94
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 113
+      icon:
+        m_AssetGUID: 99c3a297fcc244948af09c184270253a
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 128
+      icon:
+        m_AssetGUID: 00ebe81f3ea1a4feca950cbf8c69300c
+        m_SubObjectName: CommonButtonPlus1
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 130
+      icon:
+        m_AssetGUID: 99c3a297fcc244948af09c184270253a
+        m_SubObjectName: CommonButtonPlus7
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 132
+      icon:
+        m_AssetGUID: a97e53041d9f74178ad3267fb7d0f47c
+        m_SubObjectName: CommonButtonPlus6
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - placement: 11
+    icons:
+    - cur: 0
+      icon:
+        m_AssetGUID: ece9814377e5d49cf9d204ee1729ab6b
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 5
+      icon:
+        m_AssetGUID: b14e61a89da504c91946c4bac37c842d
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 6
+      icon:
+        m_AssetGUID: 765623f7275a24583a49049920b95347
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 7
+      icon:
+        m_AssetGUID: 384b12d56e1824aa5951505f215d8ada
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 8
+      icon:
+        m_AssetGUID: 515e164e95fd84456b5f1a493c3d951f
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 9
+      icon:
+        m_AssetGUID: 5c6b985781a544fdfb9c2c8e939f84c7
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 10
+      icon:
+        m_AssetGUID: a356039d1ed9e4ba096a7a3b0946fb91
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 11
+      icon:
+        m_AssetGUID: 7d6bd7a34cd2d4d7eaceebac166c4a56
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 16
+      icon:
+        m_AssetGUID: 620d2ee0fb6004b068a7d8de93782c32
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 22
+      icon:
+        m_AssetGUID: a66f3c217c08b40d6a96bdebf2f8dda4
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 27
+      icon:
+        m_AssetGUID: 59b7933bf9a3b494da1e71098c45e62b
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 29
+      icon:
+        m_AssetGUID: 653bb0f1ffc4cf44bacb7a2d2b9774ff
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 36
+      icon:
+        m_AssetGUID: 3eda497edf267c940befecaba63591d8
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 88
+      icon:
+        m_AssetGUID: cf9c12512daf14543b81da7a329edfb2
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 107
+      icon:
+        m_AssetGUID: f66c9a7d24ab945dc88f7a1eeb321d4a
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 113
+      icon:
+        m_AssetGUID: 37fa8827066d34426981146d48265d1a
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 128
+      icon:
+        m_AssetGUID: ca223111178964237a3e00f7da9fd618
+        m_SubObjectName: IconHotel17MoneySmallShadow
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - placement: 12
+    icons:
+    - cur: 0
+      icon:
+        m_AssetGUID: d18ebc1567dee485ebc1dedc1f5523e4
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 5
+      icon:
+        m_AssetGUID: 0d447b078e923410f882a6d290d9cb8f
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 6
+      icon:
+        m_AssetGUID: dcc3134cf62154f72b76de45a4fec717
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 7
+      icon:
+        m_AssetGUID: 5d8b6ccb1596f48db974707fb5d144e5
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 8
+      icon:
+        m_AssetGUID: 2d350eea4b96749c7b199ec5b2d979c0
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 9
+      icon:
+        m_AssetGUID: 62a5fca31dada45ecaf31398c11ef5b2
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 10
+      icon:
+        m_AssetGUID: 260c745b924df463e90ac61cbcd9d344
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 11
+      icon:
+        m_AssetGUID: aa50455ca4baa479c9774cc50de42d79
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 16
+      icon:
+        m_AssetGUID: fc77157669ce64862bebfbaf9085a196
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 22
+      icon:
+        m_AssetGUID: 3acd74789b4b049a89e81761eb5ddf41
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 27
+      icon:
+        m_AssetGUID: 239322acbae86f14f9f7b58d1fdedaca
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 29
+      icon:
+        m_AssetGUID: e77e331be9d6ec847ae776eaf39d5ee2
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 36
+      icon:
+        m_AssetGUID: c4bb0001d6de6084d83065aa9a154df6
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 88
+      icon:
+        m_AssetGUID: bb64990a56ead41b6a3f865f3cf9d107
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 107
+      icon:
+        m_AssetGUID: 6279149aa37e84035bd999777062e82f
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 113
+      icon:
+        m_AssetGUID: 526e0f8968af14423bc9dd6459db74ef
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 128
+      icon:
+        m_AssetGUID: 9d5c014b693a440edbc0e9f3d5d257e8
+        m_SubObjectName: IconHotel17MoneyMediumShadow
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - placement: 13
+    icons:
+    - cur: 0
+      icon:
+        m_AssetGUID: 18eeacda12b7a4e4086a4215a8b40762
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 5
+      icon:
+        m_AssetGUID: 9dc201370909d4087ab2eb1a21ebc9b1
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 6
+      icon:
+        m_AssetGUID: b7c28d3294ef341c38f1726ed2bdd89d
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 7
+      icon:
+        m_AssetGUID: df1bc430f7b6044f1bee6e23b1cfc29f
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 8
+      icon:
+        m_AssetGUID: b925a3a0959104b0e85dbdee4e28db59
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 9
+      icon:
+        m_AssetGUID: bc8967de5ea134019b6ece9f6026ff19
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 10
+      icon:
+        m_AssetGUID: 91cb04cf4959244c6986773e9057c7f8
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 11
+      icon:
+        m_AssetGUID: f57272202926a4d0ba3ae5e1732194a6
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 16
+      icon:
+        m_AssetGUID: 518d60578e6fa44f9a4e095018d307af
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 22
+      icon:
+        m_AssetGUID: 9639b1ca87f3d45d6bfed58a4cabf1fa
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 27
+      icon:
+        m_AssetGUID: addaf4b7995366147952dc43b67e7f64
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 29
+      icon:
+        m_AssetGUID: 4aba81f4cf6cc054a9ce0fe41ad14768
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 36
+      icon:
+        m_AssetGUID: 3780fc021edb6dd4db8fa8d2d4c6ff54
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 88
+      icon:
+        m_AssetGUID: 9fbf1c07ee87b4bd79cc723b76a3caf4
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 107
+      icon:
+        m_AssetGUID: 18ac2c3ab9e824b95b94921222008c50
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 113
+      icon:
+        m_AssetGUID: 9f470d72a4cf04b31bfa8860899b10af
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 128
+      icon:
+        m_AssetGUID: c6bc500e1d67840189cb1562e318563f
+        m_SubObjectName: IconHotel17MoneyBigShadow
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - placement: 18
+    icons:
+    - cur: 4
+      icon:
+        m_AssetGUID: ea91511b116fc224abb0825051a4ecbe
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - placement: 19
+    icons:
+    - cur: 4
+      icon:
+        m_AssetGUID: 7af5e5f9fbe3b4fb18a44b8cbf9bbd82
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - placement: 20
+    icons:
+    - cur: 4
+      icon:
+        m_AssetGUID: 7af5e5f9fbe3b4fb18a44b8cbf9bbd82
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - placement: 30
+    icons:
+    - cur: 4
+      icon:
+        m_AssetGUID: 7af5e5f9fbe3b4fb18a44b8cbf9bbd82
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 35
+      icon:
+        m_AssetGUID: 38b87fec1c71318408df32dfee34fd0a
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - cur: 34
+      icon:
+        m_AssetGUID: e8a9d0d7708456d4b9a996ecd8b632d5
+        m_SubObjectName:
+        m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  _commonCurrencyIcons:
+  - cur: 0
+    icon:
+      m_AssetGUID: 3918f189e0d8a3c43b8d46ef1d2ce61b
+      m_SubObjectName: CommonDollar1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 5
+    icon:
+      m_AssetGUID: 6c4c7c2fbe0ab1143968fa1fc077e6ce
+      m_SubObjectName: CommonDollar2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 6
+    icon:
+      m_AssetGUID: 8d182e67aef0cb84b82ca6af37844b07
+      m_SubObjectName: CommonDollar3
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 7
+    icon:
+      m_AssetGUID: aeb56badfac58e442ac9e1fa15cc1198
+      m_SubObjectName: CommonDollar4
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 8
+    icon:
+      m_AssetGUID: 7360c6f7b0ab1d64399cafd227ffab24
+      m_SubObjectName: CommonDollar5
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 9
+    icon:
+      m_AssetGUID: f4fc669a8f4771545ab79152d1bd7529
+      m_SubObjectName: CommonDollar6
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 10
+    icon:
+      m_AssetGUID: 7e39c6e4f02bcbb44a2d8fd93a6199e4
+      m_SubObjectName: CommonDollar7
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 11
+    icon:
+      m_AssetGUID: 60f01a448f4fc134ca92aae8025d013f
+      m_SubObjectName: CommonDollar8
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 16
+    icon:
+      m_AssetGUID: 0044c05e4a567b74fa23eec69f7073f7
+      m_SubObjectName: CommonDollar9
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 22
+    icon:
+      m_AssetGUID: 67611a34467e2714cb81a9ea0bf335f6
+      m_SubObjectName: CommonDollar10
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 27
+    icon:
+      m_AssetGUID: 9cef15becccf67d44b60eea7d742ac6b
+      m_SubObjectName: CommonDollar11
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 29
+    icon:
+      m_AssetGUID: 0ab3135590d853d48996297bf14b228c
+      m_SubObjectName: CommonDollar12
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 2
+    icon:
+      m_AssetGUID: 682e056539694c54e99e99853909f410
+      m_SubObjectName: CommonToken
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 4
+    icon:
+      m_AssetGUID: 7048bd847af3ec342917c56161001e17
+      m_SubObjectName: CommonGem
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 38
+    icon:
+      m_AssetGUID: a5b5835ee3fe917419d2dd21784518d5
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 39
+    icon:
+      m_AssetGUID: 7434fc9f50261a64ba78a960d92aaabc
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 40
+    icon:
+      m_AssetGUID: 655920fa557ee4eff84f084475f6aa32
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 41
+    icon:
+      m_AssetGUID: 3a80fbb7311fd2c448d4d28b0061a66a
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 42
+    icon:
+      m_AssetGUID: 5fd33a76542bed7409f295507b85813a
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 43
+    icon:
+      m_AssetGUID: e4eea0e11507f244b9ce8536496cbee5
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 44
+    icon:
+      m_AssetGUID: 53f3f413df289ff4e8f3bf1d8c1e6b21
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 45
+    icon:
+      m_AssetGUID: d818b8f17ae17424d9071ab1f1e10299
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 46
+    icon:
+      m_AssetGUID: d7ba556746cacc742aba3b59cb3a6666
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 47
+    icon:
+      m_AssetGUID: b2f3068520d50de428c1e0e08b6900a4
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 64
+    icon:
+      m_AssetGUID: 1138d1052e5d24b41baaaef6c69d7436
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 82
+    icon:
+      m_AssetGUID: 8c586266be7ef452cb59cb9f6e35f253
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 57
+    icon:
+      m_AssetGUID: 5ca0dcfb299c6464cbba3c2ead11d3bd
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 77
+    icon:
+      m_AssetGUID: abf530f2497934495a57886eaf27c445
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 56
+    icon:
+      m_AssetGUID: c91e4d960be2c431a99914ff01759178
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 78
+    icon:
+      m_AssetGUID: fe872a1bb7822469e957928417145ce9
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 53
+    icon:
+      m_AssetGUID: 9a140b8a4ca5144b9914a4b54bf0dc77
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 76
+    icon:
+      m_AssetGUID: cfb5cd49ecd394191b45c3265ea3212e
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 58
+    icon:
+      m_AssetGUID: 5f5cd36e74f484e3c8dcfc942b92934b
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 83
+    icon:
+      m_AssetGUID: 7c808bed74f0e4c3781d7d65a913ce95
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 44
+    icon:
+      m_AssetGUID: 53f3f413df289ff4e8f3bf1d8c1e6b21
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 49
+    icon:
+      m_AssetGUID: 20b452a5eb5a1431cbd9a7ce6999ed8d
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 67
+    icon:
+      m_AssetGUID: 9010691b6ffc7477fb48adccc1684a6e
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 80
+    icon:
+      m_AssetGUID: ed17cc2bf1d7543c190c3b52f1a6a1b0
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 51
+    icon:
+      m_AssetGUID: 8e43631596afd48bdb964807ca64ff31
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 63
+    icon:
+      m_AssetGUID: 5d5eb11d9b8894675a55a0418eb62d89
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 61
+    icon:
+      m_AssetGUID: 0c615a6827e9244d78972d7143eb97b6
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 70
+    icon:
+      m_AssetGUID: e8e7be1239b8b4bb68b52dabc2cb924e
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 52
+    icon:
+      m_AssetGUID: 160ec1fc02216438c9a2c51f2df0baff
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 81
+    icon:
+      m_AssetGUID: d3f0dd3d14e954cabbdf5aab2a3bcc81
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 66
+    icon:
+      m_AssetGUID: a605e31aa3629431cabb743201679b96
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 60
+    icon:
+      m_AssetGUID: c10fe98e9647b47ec8967283b5f1181c
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 54
+    icon:
+      m_AssetGUID: 49d198f707c5c4b4991b57af45d456a8
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 62
+    icon:
+      m_AssetGUID: f638ce69e270f47cf995807f87245531
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 69
+    icon:
+      m_AssetGUID: c7ca592c8ea5a4da6820af2cbd070a74
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 55
+    icon:
+      m_AssetGUID: 7bae748d23cba431ea48757a25799da1
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 48
+    icon:
+      m_AssetGUID: bdfeb83c4bcb24a049054fdb7a4a76ea
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 68
+    icon:
+      m_AssetGUID: 634aee24ee5ca432e8688c26d2809b57
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 59
+    icon:
+      m_AssetGUID: dd15db7636a1e4a33a78e77832d977cc
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 79
+    icon:
+      m_AssetGUID: e0bdd9acb2dfd4d4aaae179930c8d08e
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 71
+    icon:
+      m_AssetGUID: b5cbf4b57ae15483fb66225daf7ae7ea
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 65
+    icon:
+      m_AssetGUID: 9f64535cd79f4403e928e2065134312d
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 50
+    icon:
+      m_AssetGUID: 5ef804358511e4986b160fd6f446023b
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 72
+    icon:
+      m_AssetGUID: 199653d2a626446448c80fd4e44e22ae
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 73
+    icon:
+      m_AssetGUID: 35289bc3b2abf496ebd84f48db3e95fe
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 74
+    icon:
+      m_AssetGUID: d05ed7b7307db47e9a9f44d2836b45c3
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 75
+    icon:
+      m_AssetGUID: e3131e03a40a244b5ae40db1f228836b
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 84
+    icon:
+      m_AssetGUID: b7899ce1dd47d4e8e955c6f3f2ca4687
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 85
+    icon:
+      m_AssetGUID: 04b15580230604a4aa1369c361a60f3a
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 86
+    icon:
+      m_AssetGUID: 3c27059c95e664f3eb5895d60ac6412b
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 87
+    icon:
+      m_AssetGUID: cbeff5b23ddf14da7a8242e0370594ca
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 36
+    icon:
+      m_AssetGUID: 089e8d504391ab34d93a339395cdb42d
+      m_SubObjectName: CommonDollar13
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 88
+    icon:
+      m_AssetGUID: a8137cc165ed2ea44bdb70e1d30b4cc0
+      m_SubObjectName: CommonDollar14
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 89
+    icon:
+      m_AssetGUID: a5ea3a41510bfa44fbfe7e028411007a
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 90
+    icon:
+      m_AssetGUID: 6cb14c8fdd45f6649bed2904078d50f6
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 91
+    icon:
+      m_AssetGUID: c8f5e866db5c9ed41b2f1f45fab474a1
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 92
+    icon:
+      m_AssetGUID: 3f9f5ad1c0233734c853ab8fbcf079a1
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 14
+    icon:
+      m_AssetGUID: 6cb807fc6d97acf4d846cd48b3c4b725
+      m_SubObjectName: ToxicIconCockroach
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 15
+    icon:
+      m_AssetGUID: 0362dd9ae18a7d54783bd0ac9d8306c4
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 18
+    icon:
+      m_AssetGUID: ee5ae609a51328f479790e9552ce4f90
+      m_SubObjectName: TGDPointIconWithBorder
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 21
+    icon:
+      m_AssetGUID: 65a9494c991428d418c7c5187d8534bc
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 24
+    icon:
+      m_AssetGUID: 9edb2eef0c74c96459d0abac9380c83a
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 25
+    icon:
+      m_AssetGUID: 94f3dffa57fd520488bea063e3834d5f
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 12
+    icon:
+      m_AssetGUID: 73951154b213c5146b66f97badfed21c
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 13
+    icon:
+      m_AssetGUID: 1f1c8ea18e2c04e49bfc8d535f039867
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 93
+    icon:
+      m_AssetGUID: 5e41107faf38e4846b82deba597c70fc
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 94
+    icon:
+      m_AssetGUID: 88a22c7866cf1ad409e7746451fefaba
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 95
+    icon:
+      m_AssetGUID: b8b7125b39afea84da16d424cf8a2847
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 96
+    icon:
+      m_AssetGUID: 637b5d7587447524ba059882ecf1388b
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 97
+    icon:
+      m_AssetGUID: 568f5ec206dd8f546ab726be6339e992
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 98
+    icon:
+      m_AssetGUID: 1a15f02a3df50b8499263d6c34b82700
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 99
+    icon:
+      m_AssetGUID: 3a5cd0e1b24eaae4daee677b05984a81
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 100
+    icon:
+      m_AssetGUID: 8ec1fc9bcfa481c43bdd300f6f91241a
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 101
+    icon:
+      m_AssetGUID: 5f300399c2b25a34cbcfefd95a1d1812
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 102
+    icon:
+      m_AssetGUID: d95e1b0f3743f7c4ea4e1c39fa791ea5
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 103
+    icon:
+      m_AssetGUID: f60eb756a2dab144c8a1886796b747b7
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 104
+    icon:
+      m_AssetGUID: 984f660c154c7f644b450fa88feaaa37
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 105
+    icon:
+      m_AssetGUID: 443e91f128dc0b94abe90d8f95ead808
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 106
+    icon:
+      m_AssetGUID: a423303ef541cd2448f84770b2496936
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 35
+    icon:
+      m_AssetGUID: 38b87fec1c71318408df32dfee34fd0a
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 107
+    icon:
+      m_AssetGUID: 3e117c5ef022a0e4587d40322bc87391
+      m_SubObjectName: CommonDollar15
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 108
+    icon:
+      m_AssetGUID: cba8104a64247e048891bf218cdfa0ef
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 109
+    icon:
+      m_AssetGUID: 898329a651283994aa038455d15cbbf6
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 110
+    icon:
+      m_AssetGUID: fab76335bbd8d004990e8aceec9a8c3d
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 111
+    icon:
+      m_AssetGUID: 15bc95b1e9f3e4d4bac307302ab156e2
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 112
+    icon:
+      m_AssetGUID: d71ddc5950650674a921721e37c03f32
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 20
+    icon:
+      m_AssetGUID: babd78311fbd0ff45a6fb3324cd3c47d
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 23
+    icon:
+      m_AssetGUID: 5c9ab3e2210a5ae41ac24a7282ce0854
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 26
+    icon:
+      m_AssetGUID: 87bcc41f74d82e5449fed086e03f0b91
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 115
+    icon:
+      m_AssetGUID: 81d4fab282fc2344c8318142c051fe3c
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 116
+    icon:
+      m_AssetGUID: 7048db9d3dcc7094394d1cec646184a9
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 117
+    icon:
+      m_AssetGUID: aa55bcaeb6252e8419bc052b71f00102
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 118
+    icon:
+      m_AssetGUID: 996b21a7884f8eb409bf9f684f05b97e
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 119
+    icon:
+      m_AssetGUID: 1a11a885278888c44983757be09fc0fa
+      m_SubObjectName: CoinToilet
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 113
+    icon:
+      m_AssetGUID: 7c4eca7d65655ad459f1fce5a13137c0
+      m_SubObjectName: CommonDollar16
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 119
+    icon:
+      m_AssetGUID: bba4487149d98f246b88882f32b8050b
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 120
+    icon:
+      m_AssetGUID: bba4487149d98f246b88882f32b8050b
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 1
+    icon:
+      m_AssetGUID: 8f30197d7ff6a3b40a5de7b9c6b72329
+      m_SubObjectName: CommonTicket
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 121
+    icon:
+      m_AssetGUID: 1a11a885278888c44983757be09fc0fa
+      m_SubObjectName: CoinToilet
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 122
+    icon:
+      m_AssetGUID: bba4487149d98f246b88882f32b8050b
+      m_SubObjectName:
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 123
+    icon:
+      m_AssetGUID: 580b3869a45650045bb5f110bbefa0d5
+      m_SubObjectName: CommonCandy
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 124
+    icon:
+      m_AssetGUID: be45c91a7e9be3f438900821412d6657
+      m_SubObjectName: CoinVending
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 125
+    icon:
+      m_AssetGUID: da05c37e9e888ae4b9c0b39b563cef57
+      m_SubObjectName: CandyIcon
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 126
+    icon:
+      m_AssetGUID: da05c37e9e888ae4b9c0b39b563cef57
+      m_SubObjectName: CandyIcon
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 127
+    icon:
+      m_AssetGUID: da05c37e9e888ae4b9c0b39b563cef57
+      m_SubObjectName: CandyIcon
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 128
+    icon:
+      m_AssetGUID: 137f2c1acbbd7884a88fa6ad7c770cb2
+      m_SubObjectName: CommonDollar17
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 129
+    icon:
+      m_AssetGUID: 8f01be4f6d0b7594e8b02e32535aa61c
+      m_SubObjectName: WeeklyQuestMedalIcon
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 130
+    icon:
+      m_AssetGUID: 72a5f4f6e505f4645891df679a0d1b52
+      m_SubObjectName: CommonDollarHalloween25
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 131
+    icon:
+      m_AssetGUID: 32afbe19be817f144a877eec6636a4d4
+      m_SubObjectName: Pumpkin
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 132
+    icon:
+      m_AssetGUID: 4789f8b76de3d4ffa9a1ed9b944a09b8
+      m_SubObjectName: CommonDollarBarbie1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 133
+    icon:
+      m_AssetGUID: d553fddf9aa484fedb13fe955121a0e2
+      m_SubObjectName: ShoeBarbie1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - cur: 134
+    icon:
+      m_AssetGUID: c8ae03e6b0428405e99134b37ed1502a
+      m_SubObjectName: BarbieCommonIconStar
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  _commonInventoryItemIcons:
+  - InventoryItem: {fileID: 11400000, guid: e9bd992e0db036c45b79dfe598899eba, type: 2}
+    Sprite:
+      m_AssetGUID: 7bfd5b73250909d4c87b84836cef5ba8
+      m_SubObjectName:
+      m_SubObjectType:
+  - InventoryItem: {fileID: 11400000, guid: 4d5f9963247e4e74595d3448dd46dbf8, type: 2}
+    Sprite:
+      m_AssetGUID: eb8060d9b86e96443a853eb61363ee9f
+      m_SubObjectName:
+      m_SubObjectType:
+  - InventoryItem: {fileID: 11400000, guid: 15a24344c44ca6942912eb5dcc8d25da, type: 2}
+    Sprite:
+      m_AssetGUID: f8a9b1eb7c663514788154cd3eeede10
+      m_SubObjectName: GuestsCollectionIconTokenBronze
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - InventoryItem: {fileID: 11400000, guid: cb2c36fff12b95c49b10f2aa8b79614c, type: 2}
+    Sprite:
+      m_AssetGUID: 6044af9e640e6f64dbcd82ecd02742f8
+      m_SubObjectName: GuestsCollectionIconTokenSilver
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - InventoryItem: {fileID: 11400000, guid: e7cf04ecbc63b864f837abf81e2f62ef, type: 2}
+    Sprite:
+      m_AssetGUID: 426d3c5b844e5ca439ffc65c06797f68
+      m_SubObjectName: GuestsCollectionIconTokenGolden
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  _commonInventoryItemIdIcons:
+  - inventoryItemId: PatrickEventPremiumQuest
+    Sprite:
+      m_AssetGUID: bbe5c431fcdf27b44bfc2d40737a71fe
+      m_SubObjectName:
+      m_SubObjectType:
+  - inventoryItemId: AnimalEventPremiumQuest
+    Sprite:
+      m_AssetGUID: bbe5c431fcdf27b44bfc2d40737a71fe
+      m_SubObjectName:
+      m_SubObjectType:
+  - inventoryItemId: BarbieEventPremiumQuest
+    Sprite:
+      m_AssetGUID: a9fce24b6984048c19f34d3736a5ebe8
+      m_SubObjectName: PremiumQuestsUnlock
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  currencyColors:
+  - currency: 0
+    color: {r: 0.44705883, g: 0.9019608, b: 0.23529412, a: 1}
+  - currency: 1
+    color: {r: 0.8235294, g: 0.21568628, b: 0.4745098, a: 1}
+  - currency: 2
+    color: {r: 0.9882353, g: 0.8784314, b: 0.03529412, a: 1}
+  - currency: 4
+    color: {r: 0.19607843, g: 0.87058824, b: 1, a: 1}
+  - currency: 5
+    color: {r: 0.19607842, g: 0.3549204, b: 1, a: 1}
+  - currency: 6
+    color: {r: 0.57865715, g: 0.19607842, b: 1, a: 1}
+  - currency: 7
+    color: {r: 0.8235294, g: 0.21568625, b: 0.3308875, a: 1}
+  - currency: 8
+    color: {r: 0.98823535, g: 0.87843144, b: 0.023529414, a: 1}
+  - currency: 9
+    color: {r: 0.9882353, g: 0.6763346, b: 0.02352938, a: 1}
+  - currency: 10
+    color: {r: 0.46431112, g: 0.8187831, b: 0.8867924, a: 1}
+  - currency: 11
+    color: {r: 1, g: 0.56078434, b: 0.7568628, a: 1}
+  - currency: 16
+    color: {r: 0.46274513, g: 0.8196079, b: 0.882353, a: 1}
+  - currency: 19
+    color: {r: 0.98823535, g: 0.6745098, b: 0.023529414, a: 1}
+  - currency: 22
+    color: {r: 1, g: 0.81568635, b: 0.5882353, a: 1}
+  - currency: 27
+    color: {r: 1, g: 0.5990566, b: 0.76257324, a: 1}
+  - currency: 23
+    color: {r: 1, g: 0.5990566, b: 0.76257324, a: 1}
+  - currency: 29
+    color: {r: 1, g: 0.9058824, b: 0.75294125, a: 1}
+  - currency: 36
+    color: {r: 0.29803923, g: 0.9882353, b: 0.78039217, a: 1}
+  - currency: 88
+    color: {r: 0.98823535, g: 0.67058825, b: 0.29803923, a: 1}
+  - currency: 107
+    color: {r: 0.121568635, g: 0.9490197, b: 1, a: 1}
+  - currency: 113
+    color: {r: 0.909804, g: 1, b: 0.22352943, a: 1}
+  - currency: 128
+    color: {r: 0.44705883, g: 0.9019608, b: 0.23529412, a: 1}
+  - currency: 130
+    color: {r: 0.6313726, g: 0.18039216, b: 1, a: 1}
+  - currency: 132
+    color: {r: 1, g: 0.43867922, b: 0.525865, a: 1}
+  - currency: 133
+    color: {r: 0.9056604, g: 0, b: 0.05840244, a: 1}
+  softCurrencies: 0000000005000000060000000700000008000000090000000a0000000b00000010000000160000001b0000001d00000024000000580000006b00000071000000800000008200000084000000
+  _eventToolCurrencies: 20000000770000000c0000000d000000140000001900000013000000
+  _secondSoftCurrencies: 790000007c000000
+  minigamesCurrencies: 5d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a00000070000000
+  currencyMaterials:
+  - currency: 0
+    mat: {fileID: 2100000, guid: babc231f51477bd4ba97c95967b61158, type: 2}
+  - currency: 5
+    mat: {fileID: 2100000, guid: 91ccfd21ec571c14f947743447237ec6, type: 2}
+  - currency: 6
+    mat: {fileID: 2100000, guid: b6b28187e1c09a244b68f7f6b588d657, type: 2}
+  - currency: 7
+    mat: {fileID: 2100000, guid: 73a081da4613a2d4bbd79259b7ab45c4, type: 2}
+  - currency: 8
+    mat: {fileID: 2100000, guid: fab179054b72a7e43a6ee56ae1c93473, type: 2}
+  - currency: 9
+    mat: {fileID: 2100000, guid: 436dc7ac8f1406c44ac8993100e92160, type: 2}
+  - currency: 10
+    mat: {fileID: 2100000, guid: 9886fca249805f240b920f2228fea171, type: 2}
+  - currency: 11
+    mat: {fileID: 2100000, guid: 7ab5d2599ffb7294880b4967e403d2f9, type: 2}
+  - currency: 16
+    mat: {fileID: 2100000, guid: fe5c1f220670c1f4a8a2cde7b6379d07, type: 2}
+  - currency: 22
+    mat: {fileID: 2100000, guid: 46a52fc55752b764c806e44c0ebc1767, type: 2}
+  - currency: 27
+    mat: {fileID: 2100000, guid: deabaa96937d46f49b7693fd4e304164, type: 2}
+  - currency: 29
+    mat: {fileID: 2100000, guid: 43836231a4a8a42418c501f99fb50064, type: 2}
+  - currency: 36
+    mat: {fileID: 2100000, guid: e54dc3b0713980346835e2d4537afdaf, type: 2}
+  - currency: 88
+    mat: {fileID: 2100000, guid: 31fa738e90965d546bf0d2dc7ec11524, type: 2}
+  - currency: 107
+    mat: {fileID: 2100000, guid: e8979fd742cdf3443922b3a3a975e562, type: 2}
+  - currency: 113
+    mat: {fileID: 2100000, guid: 33b1e1d536f039d4ab441afddf26e1a3, type: 2}
+  - currency: 128
+    mat: {fileID: 2100000, guid: 290bdb364b3b8be4dbcf617756e8fc6b, type: 2}
+  - currency: 130
+    mat: {fileID: 2100000, guid: 4ecff553594753e4bb36c13562ffa5a7, type: 2}
+  - currency: 132
+    mat: {fileID: 2100000, guid: f6978e9117cc0614e9d36dc9dead0654, type: 2}
+  currencyDescriptions:
+  - CurrencyType: 2
+    LocalizedDescription: 552
+  - CurrencyType: 4
+    LocalizedDescription: 551
+  - CurrencyType: 12
+    LocalizedDescription: 508
+  - CurrencyType: 13
+    LocalizedDescription: 1201
+  - CurrencyType: 19
+    LocalizedDescription: 636
+  - CurrencyType: 20
+    LocalizedDescription: 661
+  - CurrencyType: 25
+    LocalizedDescription: 701
+  - CurrencyType: 32
+    LocalizedDescription: 858
+  - CurrencyType: 1
+    LocalizedDescription: 1080
+  - CurrencyType: 39
+    LocalizedDescription: 923
+  - CurrencyType: 38
+    LocalizedDescription: 924
+  - CurrencyType: 40
+    LocalizedDescription: 932
+  - CurrencyType: 41
+    LocalizedDescription: 931
+  - CurrencyType: 42
+    LocalizedDescription: 933
+  - CurrencyType: 43
+    LocalizedDescription: 934
+  - CurrencyType: 44
+    LocalizedDescription: 944
+  - CurrencyType: 45
+    LocalizedDescription: 943
+  - CurrencyType: 46
+    LocalizedDescription: 945
+  - CurrencyType: 47
+    LocalizedDescription: 946
+  - CurrencyType: 48
+    LocalizedDescription: 955
+  - CurrencyType: 49
+    LocalizedDescription: 956
+  - CurrencyType: 50
+    LocalizedDescription: 957
+  - CurrencyType: 51
+    LocalizedDescription: 958
+  - CurrencyType: 52
+    LocalizedDescription: 979
+  - CurrencyType: 53
+    LocalizedDescription: 980
+  - CurrencyType: 54
+    LocalizedDescription: 981
+  - CurrencyType: 55
+    LocalizedDescription: 982
+  - CurrencyType: 56
+    LocalizedDescription: 967
+  - CurrencyType: 57
+    LocalizedDescription: 968
+  - CurrencyType: 58
+    LocalizedDescription: 969
+  - CurrencyType: 59
+    LocalizedDescription: 970
+  - CurrencyType: 60
+    LocalizedDescription: 991
+  - CurrencyType: 61
+    LocalizedDescription: 992
+  - CurrencyType: 62
+    LocalizedDescription: 993
+  - CurrencyType: 63
+    LocalizedDescription: 994
+  - CurrencyType: 64
+    LocalizedDescription: 1003
+  - CurrencyType: 65
+    LocalizedDescription: 1004
+  - CurrencyType: 66
+    LocalizedDescription: 1005
+  - CurrencyType: 67
+    LocalizedDescription: 1006
+  - CurrencyType: 68
+    LocalizedDescription: 1015
+  - CurrencyType: 69
+    LocalizedDescription: 1016
+  - CurrencyType: 70
+    LocalizedDescription: 1017
+  - CurrencyType: 71
+    LocalizedDescription: 1018
+  - CurrencyType: 72
+    LocalizedDescription: 1027
+  - CurrencyType: 73
+    LocalizedDescription: 1028
+  - CurrencyType: 74
+    LocalizedDescription: 1029
+  - CurrencyType: 75
+    LocalizedDescription: 1030
+  - CurrencyType: 76
+    LocalizedDescription: 1039
+  - CurrencyType: 77
+    LocalizedDescription: 1040
+  - CurrencyType: 78
+    LocalizedDescription: 1041
+  - CurrencyType: 79
+    LocalizedDescription: 1042
+  - CurrencyType: 80
+    LocalizedDescription: 1051
+  - CurrencyType: 81
+    LocalizedDescription: 1052
+  - CurrencyType: 82
+    LocalizedDescription: 1053
+  - CurrencyType: 83
+    LocalizedDescription: 1054
+  - CurrencyType: 84
+    LocalizedDescription: 1063
+  - CurrencyType: 86
+    LocalizedDescription: 1065
+  - CurrencyType: 87
+    LocalizedDescription: 1066
+  - CurrencyType: 90
+    LocalizedDescription: 1160
+  - CurrencyType: 89
+    LocalizedDescription: 1161
+  - CurrencyType: 91
+    LocalizedDescription: 1162
+  - CurrencyType: 92
+    LocalizedDescription: 1163
+  - CurrencyType: 108
+    LocalizedDescription: 1214
+  - CurrencyType: 109
+    LocalizedDescription: 1215
+  - CurrencyType: 110
+    LocalizedDescription: 1216
+  - CurrencyType: 111
+    LocalizedDescription: 1217
+  - CurrencyType: 115
+    LocalizedDescription: 6310
+  - CurrencyType: 116
+    LocalizedDescription: 6307
+  - CurrencyType: 117
+    LocalizedDescription: 6308
+  - CurrencyType: 118
+    LocalizedDescription: 6309
+  - CurrencyType: 130
+    LocalizedDescription: 16
+  - CurrencyType: 133
+    LocalizedDescription: 941
+  currenciesSorting: 04000000020000000100000077000000
+  hardCompensationBorders: {x: 5, y: -1}
+  hardUpgradeMigrationPrice: 2.5
+  migrationSoftMultiplier: 0.3
+  chinaMigrationSoftMultiplier: 1.5
+  notEnoughResourcesColor: {r: 1, g: 0.34509805, b: 0.10980392, a: 1}
+  _ticketsCounterPrefab:
+    m_AssetGUID: bbd677df1038d434c8ceeb8d157ba8ca
+    m_SubObjectName:
+    m_SubObjectType:
+  _ticketsItem: {fileID: 11400000, guid: cdadfaa181f7a6047ac075d3e59b087c, type: 2}
+  _ticketConvertItem: {fileID: 11400000, guid: 5e210e7916bd779448a447433e42f78c, type: 2}
+  _ticketConvertRatio: 5
+  tiketsMigrationMultiplier: 2.5
+  notEnoughHardFontMaterial: {fileID: 2100000, guid: a1e4659a757eb4c4cad845d247d4e2c7, type: 2}
+  notEnoughHardFontMaterialEvent: {fileID: 2100000, guid: e0201c2186f7fb94d86e0b1029ad2e23, type: 2}
+  exchangeRates:
+  - currency:
+      currency: 2
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.33
+  - currency:
+      currency: 26
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.7
+  - currency:
+      currency: 2
+      value: 1
+    exchangePrice:
+      currency: 26
+      value: 1.125
+  - currency:
+      currency: 2
+      value: 1
+    exchangePrice:
+      currency: 23
+      value: 0.226
+  - currency:
+      currency: 33
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.8
+  - currency:
+      currency: 2
+      value: 1
+    exchangePrice:
+      currency: 33
+      value: 0.4
+  - currency:
+      currency: 2
+      value: 1
+    exchangePrice:
+      currency: 30
+      value: 0.1
+  - currency:
+      currency: 35
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.1
+  - currency:
+      currency: 34
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.4
+  - currency:
+      currency: 123
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.1
+  - currency:
+      currency: 131
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.1
+  - currency:
+      currency: 39
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 38
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 41
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 40
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 42
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 43
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 45
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 44
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 46
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 47
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 48
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 49
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 50
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 51
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 52
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 53
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 55
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 54
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 56
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 57
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 58
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 59
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 60
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 61
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 62
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 63
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 64
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 65
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 66
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 67
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 68
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 69
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 70
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 71
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 72
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 73
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 75
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 74
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 76
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 77
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 78
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 79
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 80
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 81
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 82
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 83
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 84
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 85
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 86
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 87
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 90
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 89
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 91
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 92
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 108
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 109
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 110
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 111
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 116
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 117
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 118
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 115
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 2
+  - currency:
+      currency: 93
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 94
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 95
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 96
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 97
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 98
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 99
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 100
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 101
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 102
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 103
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 104
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 105
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 106
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  - currency:
+      currency: 112
+      value: 1
+    exchangePrice:
+      currency: 0
+      value: 1
+  _exchangeRatesByHotelLevel:
+  - Currency:
+      currency: 39
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.075
+    - 0.075
+    - 0.1305
+    - 0.1305
+    - 0.0967
+    - 0.0906
+    - 0.0842
+    - 0.0375
+    - 0.0375
+    - 0.0653
+    - 0.0653
+    - 0.0483
+    - 0.0453
+    - 0.0421
+    - 0.0188
+    - 0.025
+    - 0.0435
+    - 0.0435
+    - 0.0322
+    - 0.0302
+    - 0.0281
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+    - 0.0125
+  - Currency:
+      currency: 38
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.18
+    - 0.1969
+    - 0.2363
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.09
+    - 0.0984
+    - 0.1181
+    - 0.0788
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.06
+    - 0.0656
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+  - Currency:
+      currency: 41
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.145
+    - 0.145
+    - 0.0967
+    - 0.0837
+    - 0.0791
+    - 0.0761
+    - 0.0757
+    - 0.0739
+    - 0.0737
+    - 0.0725
+    - 0.0725
+    - 0.0725
+    - 0.0483
+    - 0.0418
+    - 0.0395
+    - 0.0381
+    - 0.0378
+    - 0.0369
+    - 0.0369
+    - 0.0363
+    - 0.0483
+    - 0.0322
+    - 0.0279
+    - 0.0264
+    - 0.0254
+    - 0.0252
+    - 0.0246
+    - 0.0246
+    - 0.0242
+    - 0.0242
+    - 0.0242
+    - 0.0242
+    - 0.0242
+    - 0.0242
+    - 0.0242
+    - 0.0242
+    - 0.0242
+  - Currency:
+      currency: 40
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1668
+    - 0.1668
+    - 0.1668
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0834
+    - 0.0834
+    - 0.0834
+    - 0.105
+    - 0.105
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0556
+    - 0.0556
+    - 0.0556
+    - 0.0556
+    - 0.0556
+    - 0.0556
+    - 0.0556
+    - 0.0556
+    - 0.0556
+    - 0.0556
+    - 0.0556
+  - Currency:
+      currency: 42
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.21
+    - 0.21
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.105
+    - 0.105
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0613
+    - 0.0613
+    - 0.0613
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+  - Currency:
+      currency: 43
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.231
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.1155
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.077
+    - 0.077
+    - 0.077
+    - 0.077
+    - 0.077
+    - 0.077
+    - 0.077
+    - 0.077
+    - 0.077
+  - Currency:
+      currency: 45
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1305
+    - 0.1305
+    - 0.0916
+    - 0.087
+    - 0.0842
+    - 0.0846
+    - 0.087
+    - 0.089
+    - 0.0906
+    - 0.0886
+    - 0.0839
+    - 0.0784
+    - 0.0653
+    - 0.0653
+    - 0.0458
+    - 0.0435
+    - 0.0421
+    - 0.0423
+    - 0.0435
+    - 0.0445
+    - 0.0453
+    - 0.0443
+    - 0.042
+    - 0.0392
+    - 0.0435
+    - 0.0305
+    - 0.029
+    - 0.0281
+    - 0.0282
+    - 0.029
+    - 0.0297
+    - 0.0302
+    - 0.0295
+    - 0.028
+    - 0.0261
+    - 0.0261
+    - 0.0261
+  - Currency:
+      currency: 44
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.252
+    - 0.252
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1772
+    - 0.1772
+    - 0.1772
+    - 0.1733
+    - 0.1733
+    - 0.1575
+    - 0.1575
+    - 0.126
+    - 0.126
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0886
+    - 0.0886
+    - 0.0886
+    - 0.0866
+    - 0.0866
+    - 0.105
+    - 0.084
+    - 0.084
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0591
+    - 0.0591
+    - 0.0591
+    - 0.0578
+    - 0.0578
+    - 0.0578
+    - 0.0578
+  - Currency:
+      currency: 46
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1696
+    - 0.1696
+    - 0.1696
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0848
+    - 0.0848
+    - 0.0848
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0565
+    - 0.0565
+    - 0.0565
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+  - Currency:
+      currency: 47
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2665
+    - 0.2665
+    - 0.2475
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1333
+    - 0.1333
+    - 0.1238
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0888
+    - 0.0888
+    - 0.0825
+    - 0.0825
+    - 0.0825
+  - Currency:
+      currency: 48
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1088
+    - 0.1088
+    - 0.0967
+    - 0.0906
+    - 0.0967
+    - 0.0982
+    - 0.1024
+    - 0.1058
+    - 0.1088
+    - 0.1113
+    - 0.104
+    - 0.0997
+    - 0.0544
+    - 0.0544
+    - 0.0483
+    - 0.0453
+    - 0.0483
+    - 0.0491
+    - 0.0512
+    - 0.0529
+    - 0.0544
+    - 0.0556
+    - 0.052
+    - 0.0498
+    - 0.0363
+    - 0.0322
+    - 0.0302
+    - 0.0322
+    - 0.0327
+    - 0.0341
+    - 0.0353
+    - 0.0363
+    - 0.0371
+    - 0.0347
+    - 0.0332
+    - 0.0332
+    - 0.0332
+  - Currency:
+      currency: 49
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.189
+    - 0.2005
+    - 0.2005
+    - 0.2025
+    - 0.2025
+    - 0.2025
+    - 0.2166
+    - 0.2166
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.0945
+    - 0.1002
+    - 0.1002
+    - 0.1013
+    - 0.1013
+    - 0.1013
+    - 0.1083
+    - 0.1083
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.063
+    - 0.0668
+    - 0.0668
+    - 0.0675
+    - 0.0675
+    - 0.0675
+    - 0.0722
+    - 0.0722
+    - 0.0722
+    - 0.0722
+  - Currency:
+      currency: 50
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.18
+    - 0.18
+    - 0.18
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.252
+    - 0.252
+    - 0.252
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.126
+    - 0.126
+    - 0.126
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.06
+    - 0.06
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.084
+    - 0.084
+    - 0.084
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+  - Currency:
+      currency: 51
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.2038
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.1019
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.0679
+    - 0.0679
+    - 0.0679
+  - Currency:
+      currency: 52
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1004
+    - 0.1004
+    - 0.0829
+    - 0.0777
+    - 0.0791
+    - 0.0823
+    - 0.0829
+    - 0.087
+    - 0.0888
+    - 0.0502
+    - 0.0502
+    - 0.0414
+    - 0.0388
+    - 0.0395
+    - 0.0411
+    - 0.0414
+    - 0.0435
+    - 0.0444
+    - 0.0335
+    - 0.0276
+    - 0.0259
+    - 0.0264
+    - 0.0274
+    - 0.0276
+    - 0.029
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+    - 0.0296
+  - Currency:
+      currency: 53
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1482
+    - 0.1482
+    - 0.1482
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.0716
+    - 0.0716
+    - 0.0716
+    - 0.0741
+    - 0.0741
+    - 0.0741
+    - 0.105
+    - 0.105
+    - 0.0477
+    - 0.0477
+    - 0.0477
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+    - 0.0494
+  - Currency:
+      currency: 54
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.189
+    - 0.189
+    - 0.189
+    - 0.2363
+    - 0.2363
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0945
+    - 0.0945
+    - 0.0945
+    - 0.1181
+    - 0.1181
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.063
+    - 0.063
+    - 0.063
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+  - Currency:
+      currency: 55
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.225
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.1125
+    - 0.0613
+    - 0.0613
+    - 0.0613
+    - 0.0613
+    - 0.0613
+    - 0.0613
+    - 0.0613
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+  - Currency:
+      currency: 56
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.0932
+    - 0.0932
+    - 0.0829
+    - 0.0837
+    - 0.0842
+    - 0.087
+    - 0.0892
+    - 0.0466
+    - 0.0466
+    - 0.0414
+    - 0.0418
+    - 0.0421
+    - 0.0435
+    - 0.0446
+    - 0.0233
+    - 0.0311
+    - 0.0276
+    - 0.0279
+    - 0.0281
+    - 0.029
+    - 0.0297
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+    - 0.0155
+  - Currency:
+      currency: 57
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.1454
+    - 0.1454
+    - 0.1454
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.0727
+    - 0.0727
+    - 0.0727
+    - 0.0788
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.0485
+    - 0.0485
+    - 0.0485
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+  - Currency:
+      currency: 58
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1969
+    - 0.1969
+    - 0.2205
+    - 0.2205
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0984
+    - 0.0984
+    - 0.1103
+    - 0.1103
+    - 0.0394
+    - 0.0525
+    - 0.0525
+    - 0.0656
+    - 0.0656
+    - 0.0735
+    - 0.0735
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+    - 0.0263
+  - Currency:
+      currency: 59
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1938
+    - 0.1938
+    - 0.1938
+    - 0.1938
+    - 0.1938
+    - 0.1938
+    - 0.1938
+    - 0.0969
+    - 0.0969
+    - 0.0969
+    - 0.0969
+    - 0.0969
+    - 0.0969
+    - 0.0969
+    - 0.0485
+    - 0.0646
+    - 0.0646
+    - 0.0646
+    - 0.0646
+    - 0.0646
+    - 0.0646
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+    - 0.0323
+  - Currency:
+      currency: 60
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.145
+    - 0.145
+    - 0.0916
+    - 0.0906
+    - 0.09
+    - 0.0923
+    - 0.0967
+    - 0.1004
+    - 0.1036
+    - 0.1063
+    - 0.0997
+    - 0.087
+    - 0.0725
+    - 0.0725
+    - 0.0458
+    - 0.0453
+    - 0.045
+    - 0.0461
+    - 0.0483
+    - 0.0502
+    - 0.0518
+    - 0.0532
+    - 0.0498
+    - 0.0435
+    - 0.0483
+    - 0.0305
+    - 0.0302
+    - 0.03
+    - 0.0308
+    - 0.0322
+    - 0.0335
+    - 0.0345
+    - 0.0354
+    - 0.0332
+    - 0.029
+    - 0.029
+    - 0.029
+  - Currency:
+      currency: 61
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.252
+    - 0.252
+    - 0.1575
+    - 0.1575
+    - 0.18
+    - 0.18
+    - 0.18
+    - 0.2166
+    - 0.2166
+    - 0.2166
+    - 0.1575
+    - 0.1575
+    - 0.126
+    - 0.126
+    - 0.0788
+    - 0.0788
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.1083
+    - 0.1083
+    - 0.1083
+    - 0.105
+    - 0.084
+    - 0.084
+    - 0.0525
+    - 0.0525
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.0722
+    - 0.0722
+    - 0.0722
+    - 0.0722
+    - 0.0722
+  - Currency:
+      currency: 62
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.2005
+    - 0.2005
+    - 0.2363
+    - 0.2363
+    - 0.2363
+    - 0.2475
+    - 0.2475
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.1002
+    - 0.1002
+    - 0.1181
+    - 0.1181
+    - 0.1181
+    - 0.1238
+    - 0.1238
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0668
+    - 0.0668
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0825
+    - 0.0825
+    - 0.0825
+    - 0.0825
+  - Currency:
+      currency: 63
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2475
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1238
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0825
+    - 0.0825
+    - 0.0825
+  - Currency:
+      currency: 64
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1305
+    - 0.1305
+    - 0.0967
+    - 0.0906
+    - 0.087
+    - 0.087
+    - 0.0892
+    - 0.091
+    - 0.0946
+    - 0.0977
+    - 0.092
+    - 0.087
+    - 0.0653
+    - 0.0653
+    - 0.0483
+    - 0.0453
+    - 0.0435
+    - 0.0435
+    - 0.0446
+    - 0.0455
+    - 0.0473
+    - 0.0488
+    - 0.046
+    - 0.0435
+    - 0.0435
+    - 0.0322
+    - 0.0302
+    - 0.029
+    - 0.029
+    - 0.0297
+    - 0.0303
+    - 0.0315
+    - 0.0326
+    - 0.0307
+    - 0.029
+    - 0.029
+    - 0.029
+  - Currency:
+      currency: 65
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.1575
+    - 0.1575
+    - 0.168
+    - 0.168
+    - 0.168
+    - 0.1925
+    - 0.1925
+    - 0.1925
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.0788
+    - 0.0788
+    - 0.084
+    - 0.084
+    - 0.084
+    - 0.0963
+    - 0.0963
+    - 0.0963
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.0525
+    - 0.0525
+    - 0.056
+    - 0.056
+    - 0.056
+    - 0.0642
+    - 0.0642
+    - 0.0642
+    - 0.0642
+    - 0.0642
+  - Currency:
+      currency: 66
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.18
+    - 0.18
+    - 0.18
+    - 0.1969
+    - 0.1969
+    - 0.2205
+    - 0.2205
+    - 0.2577
+    - 0.2577
+    - 0.2577
+    - 0.2665
+    - 0.2665
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.0984
+    - 0.0984
+    - 0.1103
+    - 0.1103
+    - 0.1289
+    - 0.1289
+    - 0.1289
+    - 0.1333
+    - 0.1333
+    - 0.06
+    - 0.06
+    - 0.0656
+    - 0.0656
+    - 0.0735
+    - 0.0735
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0888
+    - 0.0888
+    - 0.0888
+    - 0.0888
+  - Currency:
+      currency: 67
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1925
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0963
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0642
+    - 0.0642
+    - 0.0642
+  - Currency:
+      currency: 68
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1631
+    - 0.1631
+    - 0.0967
+    - 0.0837
+    - 0.0816
+    - 0.0823
+    - 0.0829
+    - 0.0851
+    - 0.087
+    - 0.0816
+    - 0.0816
+    - 0.0483
+    - 0.0418
+    - 0.0408
+    - 0.0411
+    - 0.0414
+    - 0.0426
+    - 0.0435
+    - 0.0544
+    - 0.0322
+    - 0.0279
+    - 0.0272
+    - 0.0274
+    - 0.0276
+    - 0.0284
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+    - 0.029
+  - Currency:
+      currency: 69
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2363
+    - 0.2363
+    - 0.2363
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.18
+    - 0.18
+    - 0.18
+    - 0.1181
+    - 0.1181
+    - 0.1181
+    - 0.0716
+    - 0.0716
+    - 0.0716
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.0788
+    - 0.0788
+    - 0.0477
+    - 0.0477
+    - 0.0477
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.06
+  - Currency:
+      currency: 70
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.18
+    - 0.18
+    - 0.18
+    - 0.18
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.2577
+    - 0.2577
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.09
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.1289
+    - 0.1289
+    - 0.06
+    - 0.06
+    - 0.06
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+  - Currency:
+      currency: 71
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2205
+    - 0.2205
+    - 0.2205
+    - 0.2205
+    - 0.2205
+    - 0.2205
+    - 0.2205
+    - 0.2205
+    - 0.2625
+    - 0.1103
+    - 0.1103
+    - 0.1103
+    - 0.1103
+    - 0.1103
+    - 0.1103
+    - 0.1103
+    - 0.1103
+    - 0.1313
+    - 0.0735
+    - 0.0735
+    - 0.0735
+    - 0.0735
+    - 0.0735
+    - 0.0735
+    - 0.0735
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+  - Currency:
+      currency: 72
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2175
+    - 0.2175
+    - 0.1338
+    - 0.1145
+    - 0.1044
+    - 0.1015
+    - 0.1055
+    - 0.1119
+    - 0.1145
+    - 0.1196
+    - 0.1196
+    - 0.1167
+    - 0.1088
+    - 0.1088
+    - 0.0669
+    - 0.0572
+    - 0.0522
+    - 0.0508
+    - 0.0527
+    - 0.0559
+    - 0.0572
+    - 0.0598
+    - 0.0598
+    - 0.0584
+    - 0.0725
+    - 0.0446
+    - 0.0382
+    - 0.0348
+    - 0.0338
+    - 0.0352
+    - 0.0373
+    - 0.0382
+    - 0.0399
+    - 0.0399
+    - 0.0389
+    - 0.0389
+    - 0.0389
+  - Currency:
+      currency: 73
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.315
+    - 0.189
+    - 0.189
+    - 0.1938
+    - 0.1938
+    - 0.1938
+    - 0.2475
+    - 0.2475
+    - 0.2475
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.0945
+    - 0.0945
+    - 0.0969
+    - 0.0969
+    - 0.0969
+    - 0.1238
+    - 0.1238
+    - 0.1238
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.063
+    - 0.063
+    - 0.0646
+    - 0.0646
+    - 0.0646
+    - 0.0825
+    - 0.0825
+    - 0.0825
+    - 0.0825
+    - 0.0825
+  - Currency:
+      currency: 75
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.225
+    - 0.225
+    - 0.245
+    - 0.245
+    - 0.2835
+    - 0.2835
+    - 0.2835
+    - 0.3465
+    - 0.3465
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.1125
+    - 0.1125
+    - 0.1225
+    - 0.1225
+    - 0.1418
+    - 0.1418
+    - 0.1418
+    - 0.1733
+    - 0.1733
+    - 0.07
+    - 0.07
+    - 0.075
+    - 0.075
+    - 0.0817
+    - 0.0817
+    - 0.0945
+    - 0.0945
+    - 0.0945
+    - 0.1155
+    - 0.1155
+    - 0.1155
+    - 0.1155
+  - Currency:
+      currency: 74
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.21
+    - 0.2166
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.1083
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.07
+    - 0.0722
+    - 0.0722
+    - 0.0722
+  - Currency:
+      currency: 76
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.0932
+    - 0.0932
+    - 0.087
+    - 0.0906
+    - 0.0932
+    - 0.0982
+    - 0.1024
+    - 0.1088
+    - 0.1145
+    - 0.1167
+    - 0.1139
+    - 0.1139
+    - 0.0466
+    - 0.0466
+    - 0.0435
+    - 0.0453
+    - 0.0466
+    - 0.0491
+    - 0.0512
+    - 0.0544
+    - 0.0572
+    - 0.0584
+    - 0.057
+    - 0.057
+    - 0.0311
+    - 0.029
+    - 0.0302
+    - 0.0311
+    - 0.0327
+    - 0.0341
+    - 0.0363
+    - 0.0382
+    - 0.0389
+    - 0.038
+    - 0.038
+    - 0.038
+    - 0.038
+  - Currency:
+      currency: 77
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2363
+    - 0.2363
+    - 0.252
+    - 0.252
+    - 0.1718
+    - 0.1718
+    - 0.1938
+    - 0.1938
+    - 0.1938
+    - 0.231
+    - 0.231
+    - 0.231
+    - 0.1181
+    - 0.1181
+    - 0.126
+    - 0.126
+    - 0.0859
+    - 0.0859
+    - 0.0969
+    - 0.0969
+    - 0.0969
+    - 0.1155
+    - 0.1155
+    - 0.1155
+    - 0.0788
+    - 0.084
+    - 0.084
+    - 0.0573
+    - 0.0573
+    - 0.0646
+    - 0.0646
+    - 0.0646
+    - 0.077
+    - 0.077
+    - 0.077
+    - 0.077
+    - 0.077
+  - Currency:
+      currency: 78
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.175
+    - 0.175
+    - 0.175
+    - 0.175
+    - 0.175
+    - 0.2205
+    - 0.2205
+    - 0.2577
+    - 0.2577
+    - 0.2577
+    - 0.2888
+    - 0.2888
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.0875
+    - 0.1103
+    - 0.1103
+    - 0.1289
+    - 0.1289
+    - 0.1289
+    - 0.1444
+    - 0.1444
+    - 0.0583
+    - 0.0583
+    - 0.0583
+    - 0.0583
+    - 0.0735
+    - 0.0735
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0963
+    - 0.0963
+    - 0.0963
+    - 0.0963
+  - Currency:
+      currency: 79
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2864
+    - 0.2888
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1432
+    - 0.1444
+    - 0.0955
+    - 0.0955
+    - 0.0955
+    - 0.0955
+    - 0.0955
+    - 0.0955
+    - 0.0955
+    - 0.0955
+    - 0.0955
+    - 0.0955
+    - 0.0963
+    - 0.0963
+    - 0.0963
+  - Currency:
+      currency: 80
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.0816
+    - 0.0816
+    - 0.0829
+    - 0.087
+    - 0.0932
+    - 0.0982
+    - 0.1024
+    - 0.1088
+    - 0.1145
+    - 0.1196
+    - 0.1139
+    - 0.1088
+    - 0.0408
+    - 0.0408
+    - 0.0414
+    - 0.0435
+    - 0.0466
+    - 0.0491
+    - 0.0512
+    - 0.0544
+    - 0.0572
+    - 0.0598
+    - 0.057
+    - 0.0544
+    - 0.0272
+    - 0.0276
+    - 0.029
+    - 0.0311
+    - 0.0327
+    - 0.0341
+    - 0.0363
+    - 0.0382
+    - 0.0399
+    - 0.038
+    - 0.0363
+    - 0.0363
+    - 0.0363
+  - Currency:
+      currency: 81
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2363
+    - 0.2363
+    - 0.252
+    - 0.252
+    - 0.1718
+    - 0.1718
+    - 0.1938
+    - 0.1938
+    - 0.1938
+    - 0.2166
+    - 0.2166
+    - 0.2166
+    - 0.1181
+    - 0.1181
+    - 0.126
+    - 0.126
+    - 0.0859
+    - 0.0859
+    - 0.0969
+    - 0.0969
+    - 0.0969
+    - 0.1083
+    - 0.1083
+    - 0.1083
+    - 0.0788
+    - 0.084
+    - 0.084
+    - 0.0573
+    - 0.0573
+    - 0.0646
+    - 0.0646
+    - 0.0646
+    - 0.0722
+    - 0.0722
+    - 0.0722
+    - 0.0722
+    - 0.0722
+  - Currency:
+      currency: 82
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.2205
+    - 0.2205
+    - 0.2577
+    - 0.2577
+    - 0.2577
+    - 0.315
+    - 0.315
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.1103
+    - 0.1103
+    - 0.1289
+    - 0.1289
+    - 0.1289
+    - 0.1575
+    - 0.1575
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0735
+    - 0.0735
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.105
+    - 0.105
+    - 0.105
+    - 0.105
+  - Currency:
+      currency: 83
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1969
+    - 0.1925
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0984
+    - 0.0963
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0656
+    - 0.0642
+    - 0.0642
+    - 0.0642
+  - Currency:
+      currency: 84
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.0816
+    - 0.0816
+    - 0.0791
+    - 0.0806
+    - 0.0842
+    - 0.087
+    - 0.087
+    - 0.0932
+    - 0.0989
+    - 0.0408
+    - 0.0408
+    - 0.0395
+    - 0.0403
+    - 0.0421
+    - 0.0435
+    - 0.0435
+    - 0.0466
+    - 0.0494
+    - 0.0272
+    - 0.0264
+    - 0.0269
+    - 0.0281
+    - 0.029
+    - 0.029
+    - 0.0311
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+  - Currency:
+      currency: 85
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2363
+    - 0.2363
+    - 0.2363
+    - 0.1575
+    - 0.1575
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.225
+    - 0.1181
+    - 0.1181
+    - 0.1181
+    - 0.0788
+    - 0.0788
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.1125
+    - 0.0788
+    - 0.0788
+    - 0.0525
+    - 0.0525
+    - 0.0613
+    - 0.0613
+    - 0.0613
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+  - Currency:
+      currency: 86
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.189
+    - 0.189
+    - 0.189
+    - 0.2577
+    - 0.2577
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0945
+    - 0.0945
+    - 0.0945
+    - 0.1289
+    - 0.1289
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.063
+    - 0.063
+    - 0.063
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+  - Currency:
+      currency: 87
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.225
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.1125
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+  - Currency:
+      currency: 90
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.087
+    - 0.087
+    - 0.087
+    - 0.0906
+    - 0.0967
+    - 0.105
+    - 0.1123
+    - 0.1186
+    - 0.1243
+    - 0.1293
+    - 0.1259
+    - 0.1196
+    - 0.0435
+    - 0.0435
+    - 0.0435
+    - 0.0453
+    - 0.0483
+    - 0.0525
+    - 0.0561
+    - 0.0593
+    - 0.0621
+    - 0.0647
+    - 0.063
+    - 0.0598
+    - 0.029
+    - 0.029
+    - 0.0302
+    - 0.0322
+    - 0.035
+    - 0.0374
+    - 0.0395
+    - 0.0414
+    - 0.0431
+    - 0.042
+    - 0.0399
+    - 0.0399
+    - 0.0399
+  - Currency:
+      currency: 89
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2363
+    - 0.2363
+    - 0.252
+    - 0.252
+    - 0.1718
+    - 0.1718
+    - 0.1718
+    - 0.2025
+    - 0.2025
+    - 0.2025
+    - 0.2166
+    - 0.2166
+    - 0.1181
+    - 0.1181
+    - 0.126
+    - 0.126
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.1013
+    - 0.1013
+    - 0.1013
+    - 0.1083
+    - 0.1083
+    - 0.0788
+    - 0.084
+    - 0.084
+    - 0.0573
+    - 0.0573
+    - 0.0573
+    - 0.0675
+    - 0.0675
+    - 0.0675
+    - 0.0722
+    - 0.0722
+    - 0.0722
+    - 0.0722
+  - Currency:
+      currency: 91
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.2005
+    - 0.2005
+    - 0.2005
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.2423
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.1002
+    - 0.1002
+    - 0.1002
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.1212
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0668
+    - 0.0668
+    - 0.0668
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+    - 0.0808
+  - Currency:
+      currency: 92
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2291
+    - 0.2665
+    - 0.2665
+    - 0.2665
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1145
+    - 0.1333
+    - 0.1333
+    - 0.1333
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0764
+    - 0.0888
+    - 0.0888
+    - 0.0888
+    - 0.0888
+    - 0.0888
+  - Currency:
+      currency: 108
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.065
+    - 0.065
+    - 0.0346
+    - 0.0356
+    - 0.0486
+    - 0.0411
+    - 0.0573
+    - 0.0504
+    - 0.0322
+    - 0.0532
+    - 0.0489
+    - 0.0428
+    - 0.0325
+    - 0.0325
+    - 0.0173
+    - 0.0178
+    - 0.0243
+    - 0.0205
+    - 0.0286
+    - 0.0252
+    - 0.0161
+    - 0.0266
+    - 0.0244
+    - 0.0214
+    - 0.0217
+    - 0.0115
+    - 0.0119
+    - 0.0162
+    - 0.0137
+    - 0.0191
+    - 0.0168
+    - 0.0107
+    - 0.0177
+    - 0.0163
+    - 0.0143
+    - 0.0143
+    - 0.0143
+  - Currency:
+      currency: 109
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.3194
+    - 0.3194
+    - 0.1697
+    - 0.1749
+    - 0.2385
+    - 0.2017
+    - 0.2812
+    - 0.2477
+    - 0.1579
+    - 0.2614
+    - 0.2399
+    - 0.2102
+    - 0.1597
+    - 0.1597
+    - 0.0849
+    - 0.0874
+    - 0.1193
+    - 0.1008
+    - 0.1406
+    - 0.1238
+    - 0.079
+    - 0.1307
+    - 0.12
+    - 0.1051
+    - 0.1065
+    - 0.0566
+    - 0.0583
+    - 0.0795
+    - 0.0672
+    - 0.0937
+    - 0.0826
+    - 0.0526
+    - 0.0871
+    - 0.08
+    - 0.0701
+    - 0.0701
+    - 0.0701
+  - Currency:
+      currency: 110
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.4251
+    - 0.4251
+    - 0.2259
+    - 0.2328
+    - 0.3175
+    - 0.2685
+    - 0.3743
+    - 0.3297
+    - 0.2102
+    - 0.348
+    - 0.3194
+    - 0.2798
+    - 0.2126
+    - 0.2126
+    - 0.113
+    - 0.1164
+    - 0.1588
+    - 0.1342
+    - 0.1871
+    - 0.1648
+    - 0.1051
+    - 0.174
+    - 0.1597
+    - 0.1399
+    - 0.1417
+    - 0.0753
+    - 0.0776
+    - 0.1058
+    - 0.0895
+    - 0.1248
+    - 0.1099
+    - 0.0701
+    - 0.116
+    - 0.1065
+    - 0.0933
+    - 0.0933
+    - 0.0933
+  - Currency:
+      currency: 111
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.6056
+    - 0.6056
+    - 0.3218
+    - 0.3316
+    - 0.4523
+    - 0.3824
+    - 0.5332
+    - 0.4697
+    - 0.2995
+    - 0.4957
+    - 0.455
+    - 0.3986
+    - 0.3028
+    - 0.3028
+    - 0.1609
+    - 0.1658
+    - 0.2262
+    - 0.1912
+    - 0.2666
+    - 0.2348
+    - 0.1497
+    - 0.2479
+    - 0.2275
+    - 0.1993
+    - 0.2019
+    - 0.1073
+    - 0.1105
+    - 0.1508
+    - 0.1275
+    - 0.1777
+    - 0.1566
+    - 0.0998
+    - 0.1652
+    - 0.1517
+    - 0.1329
+    - 0.1329
+    - 0.1329
+  - Currency:
+      currency: 93
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 94
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+    - 0.04
+  - Currency:
+      currency: 95
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 96
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 98
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+  - Currency:
+      currency: 97
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+    - 0.0467
+  - Currency:
+      currency: 99
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 100
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 101
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+  - Currency:
+      currency: 102
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 103
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 104
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 105
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+    - 0.0433
+  - Currency:
+      currency: 106
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 112
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2
+    - 0.2
+    - 0.19
+    - 0.18
+    - 0.17
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.095
+    - 0.09
+    - 0.085
+    - 0.08
+    - 0.075
+    - 0.07
+    - 0.065
+    - 0.06
+    - 0.055
+    - 0.05
+    - 0.0667
+    - 0.0633
+    - 0.06
+    - 0.0567
+    - 0.0533
+    - 0.05
+    - 0.0467
+    - 0.0433
+    - 0.04
+    - 0.0367
+    - 0.0333
+    - 0.0333
+    - 0.0333
+  - Currency:
+      currency: 116
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.0816
+    - 0.0816
+    - 0.0791
+    - 0.0806
+    - 0.0842
+    - 0.087
+    - 0.087
+    - 0.0932
+    - 0.0989
+    - 0.0408
+    - 0.0408
+    - 0.0395
+    - 0.0403
+    - 0.0421
+    - 0.0435
+    - 0.0435
+    - 0.0466
+    - 0.0494
+    - 0.0272
+    - 0.0264
+    - 0.0269
+    - 0.0281
+    - 0.029
+    - 0.029
+    - 0.0311
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+    - 0.033
+  - Currency:
+      currency: 117
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.2363
+    - 0.2363
+    - 0.2363
+    - 0.1575
+    - 0.1575
+    - 0.1838
+    - 0.1838
+    - 0.1838
+    - 0.225
+    - 0.1181
+    - 0.1181
+    - 0.1181
+    - 0.0788
+    - 0.0788
+    - 0.0919
+    - 0.0919
+    - 0.0919
+    - 0.1125
+    - 0.0788
+    - 0.0788
+    - 0.0525
+    - 0.0525
+    - 0.0613
+    - 0.0613
+    - 0.0613
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+  - Currency:
+      currency: 118
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.189
+    - 0.189
+    - 0.189
+    - 0.2577
+    - 0.2577
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0945
+    - 0.0945
+    - 0.0945
+    - 0.1289
+    - 0.1289
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.063
+    - 0.063
+    - 0.063
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+    - 0.0859
+  - Currency:
+      currency: 115
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.1575
+    - 0.225
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.0788
+    - 0.1125
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.0525
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+    - 0.075
+  - Currency:
+      currency: 123
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+  - Currency:
+      currency: 131
+      value: 1
+    CurrencyToBuyWith: 4
+    LevelInfos:
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+    - 0.1
+  transferItemsExchangeRates:
+  - itemSet:
+      type: 1
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 2
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 5
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 3
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 4
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 8
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 7
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 9
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 20
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 23
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 21
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 22
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 19
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 24
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 17
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 18
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 27
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 28
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 25
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 26
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 29
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 30
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 31
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 34
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 32
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 33
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 35
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 38
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 37
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 36
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 39
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 42
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 40
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 41
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 45
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 46
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 43
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 44
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 45
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 46
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 43
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 44
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 49
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 50
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 47
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 48
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 53
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 54
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 51
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 52
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 58
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 59
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 56
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 57
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 62
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 63
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 60
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 61
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 66
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 67
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.35
+  - itemSet:
+      type: 65
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  - itemSet:
+      type: 64
+      value: 1
+    exchangePrice:
+      currency: 4
+      value: 0.25
+  EndlessOfferLocalizationsByCurrency:
+  - LocalizationKeys: 552
+    Currency: 2
+  - LocalizationKeys: 551
+    Currency: 4
+  - LocalizationKeys: 674
+    Currency: 0
+  - LocalizationKeys: 674
+    Currency: 5
+  - LocalizationKeys: 674
+    Currency: 6
+  - LocalizationKeys: 674
+    Currency: 7
+  - LocalizationKeys: 674
+    Currency: 8
+  - LocalizationKeys: 674
+    Currency: 9
+  - LocalizationKeys: 674
+    Currency: 10
+  - LocalizationKeys: 674
+    Currency: 11
+  - LocalizationKeys: 674
+    Currency: 16
+  - LocalizationKeys: 674
+    Currency: 22
+  - LocalizationKeys: 674
+    Currency: 27
+  - LocalizationKeys: 701
+    Currency: 25
+  - LocalizationKeys: 858
+    Currency: 32
+  - LocalizationKeys: 674
+    Currency: 29
+  - LocalizationKeys: 674
+    Currency: 36
+  - LocalizationKeys: 674
+    Currency: 88
+  - LocalizationKeys: 1080
+    Currency: 1
+  - LocalizationKeys: 674
+    Currency: 29
+  - LocalizationKeys: 674
+    Currency: 36
+  - LocalizationKeys: 1201
+    Currency: 13
+  - LocalizationKeys: 508
+    Currency: 12
+  - LocalizationKeys: 674
+    Currency: 107
+  - LocalizationKeys: 661
+    Currency: 20
+  - LocalizationKeys: 674
+    Currency: 113
+  - LocalizationKeys: 674
+    Currency: 128
+  - LocalizationKeys: 674
+    Currency: 130
+  - LocalizationKeys: 9652
+    Currency: 131
+  - LocalizationKeys: 674
+    Currency: 132
+  - LocalizationKeys: 674
+    Currency: 133
+  LotteryShopLocalizationsByCurrency:
+  - LocalizationKeys: 704
+    Currency: 2
+  - LocalizationKeys: 132
+    Currency: 4
+  - LocalizationKeys: 61
+    Currency: 0
+  _extraCurrenciesForAnalytics:
+  - {fileID: 11400000, guid: cdadfaa181f7a6047ac075d3e59b087c, type: 2}
+  - {fileID: 11400000, guid: 5e210e7916bd779448a447433e42f78c, type: 2}
+  - {fileID: 11400000, guid: 3cb1e387aeffec1489baca7872fe2ee0, type: 2}
+  - {fileID: 11400000, guid: ca15d090fc58a42459be89a016cd69b8, type: 2}
+  _specialGuestsCurrency: 7b0000008300000085000000
+  _topPanelCurrencyPrefab:
+  - Counter: 121
+    Prefab:
+      m_AssetGUID: 081986d1b4828a642b6a3c3081a272ad
+      m_SubObjectName:
+      m_SubObjectType:
+  - Counter: 124
+    Prefab:
+      m_AssetGUID: a2ba83377be521a4f941ae424762bac2
+      m_SubObjectName:
+      m_SubObjectType:
+  _hotelStarIconByHotel:
+  - HotelId: 18
+    Sprite:
+      m_AssetGUID: 6d826d82c7e306142891da8460e53928
+      m_SubObjectName: HalloweenCommonIconStar
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

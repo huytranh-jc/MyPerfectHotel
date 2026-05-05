@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1609994681, guid: 3887e2261eb5d2eb5cf4d734b33b539f, type: 3}
+  m_Name: EventPremiumQuestConfig
+  m_EditorClassIdentifier:
+  inventoryItemParamsArray:
+  - InventoryItem: {fileID: 11400000, guid: a138593c7bc1d56498a0d4852bf4a14b, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 846db288f1a5eba4eac01c51c85e4d91, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 5b78704059153a042ba353dee91538a4, type: 2}

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1609994681, guid: 3887e2261eb5d2eb5cf4d734b33b539f, type: 3}
+  m_Name: HotelResourcesConfig
+  m_EditorClassIdentifier:
+  inventoryItemParamsArray:
+  - InventoryItem: {fileID: 11400000, guid: 6c4be811b8a997a4b972eaad0ed16abb, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: daa99cf4eac57034da17e9bfe12d7fd7, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 185b09c8e7fd9424d9b19d4f540d326c, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: bd6f8c450966f27468ca81103fe054b6, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: b654d0a8ef2a40a4db49f1b5c3eaaf56, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 2b3dd339a7043b04cbec896b4149ed89, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 1280bcbbffba9a8498000bce25b2db0a, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: bcd7c1b182362fa439760c208aa6b947, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 0991b31354ce62d4e933da1323218e04, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 6bcd34cc348323a4da1329a16e988d45, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 9f4e1b7e03138214f83436530fa91063, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: ab430f79ccd293c4a980b94c234a5167, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: db1a17eb54ca8ef4bb74b586a7b5ee0e, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 053702e8618f50d4aa86dd8320be78c7, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: bef60bd33d24e9a40a16a6629a3a0f6b, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 40380c6e011c04241b079e8c3e3ed6a4, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: dbf53d9d0bd7dd341a70e9204c9d3fe3, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: cc86daf8c573e0d4995f9b7d58f2ce08, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 526558ecb7a7cf9438678aafd27f302a, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 2f01b5956bfc8dd43bf121a5a6ff9016, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 2ef4e52e90d8cc24aa64f73463a82e59, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 4cd8c87603c608346b8e42e098f3f137, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: b9541846ff285134e85b46fcce80997f, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: f258267b45be55b41b2ff57e18fdf1c8, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 0fd5f938d3b3d4d49954c58dd8eaa3c4, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 062436e2321bc4143bc2b760ea35076d, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 9d6efff456e164e4b998d3a98559cae1, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 3f24ca65e8208c9419ca4560c2f53447, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 4b499d60693c44f4f8baa7d26f57329c, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: d1cd3af9c598ad34cb2f2903d42e702c, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: fed54b64ce2e15349b3cfae151ee02ea, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 358fa717a16f75b439601cc6d6e4f0ab, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: a5d95757af2284440bd1bcb950d0a7d5, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 9f999413506c66342a5881b92314b45e, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: fd6634b405e5e334f86f5ecc4fc816fe, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 755d3e44a96f8f145bcf995cd70a7193, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 8891390f7408c1e468f094e097a20492, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 73e48a512653b424f8d198c5782bee94, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 804c7c3c8f99ec946b7ea85ff69a9d99, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 7b882456e0e0a9443a99a230ec88e2aa, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 2a507a6459f35c24daa7bbcdc8071a1a, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 4a8396c24c75e244d987289827dde111, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: ae80072002469a94bacd66889196426c, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: b95b7b5f496d13e4e85c8f0722a02b52, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: f08eb9324001ab54988ff43faa3dc22a, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 09b0131e9540d134387400bbc457a1d5, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 72ea7a51b137e8343bad5818809938b3, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 5a4ad45835099a743b4072438ad9ab43, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 78305184519f73443832da01a1af83d1, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 85f7b28bd40893f4990154b9e68596c3, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: a9a3a663c8b17f44494cd8696c319b33, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 6f2c92f8561bdf141b08fddfbff91a34, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 5801dd9749cb48e479c4f0664b235fb1, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 869f864dab8df294eaa759dafdc80055, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: fa4163294f25e8047a4b9ac103f54a77, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 92f6e05136254c84595d1c0dba54173c, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: da72fede6ff4dda438467bd99a38834c, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: a5a8bea665333274b85a6928d23a08db, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: ab17a7180e689fe4399153e3803c56a9, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: a56a83c982534c142b1682c88a21e317, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: c2cf113aa835d9f4f9ae5b533940e001, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: dee722b857d4f394f8d0f92936b55172, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: d6e29b4a23fb7a649b2dd016489e45ed, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 10dfa2b7df34c6242af3a62c18a51c7e, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 2f232a8ac2c956840a516f54f465557e, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 97e50f8596b0f564bb5458f4a430464d, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: b891a88e00a19f24ba8db0a04d9b0d77, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 87b1895924225004ebc74ad6d11124a2, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 68c804311b11d1a4ca39a4c3203cba72, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 90c082cf1587a7642be49022f86f3246, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: d48737e11f9363d42b56c0df8a88a39b, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 60004eef4656bed4c86c510f25e37cf8, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: c1360ca4718ac214bb1d1fd2488fa85c, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: f4c81ae249da3f24d9263df0faf73a2c, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: e0d36c7e14edb894c9d4b5e1c934ca54, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: ff3f9906903c271468a696eff24ef992, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 2ab120a53ec1bcb449e30a9cf112763b, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: ca15d090fc58a42459be89a016cd69b8, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 323a67c6fbc897341a3ff317ac14fa02, type: 2}
+  - InventoryItem: {fileID: 11400000, guid: 593a3d836db47414f974eed1e28e58f1, type: 2}
